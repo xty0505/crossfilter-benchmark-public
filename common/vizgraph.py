@@ -80,7 +80,7 @@ class VizGraph(object):
             if current_viz in affected_vizs:
                 del affected_vizs[current_viz]
 
-            vizs_to_request.update()
+            vizs_to_request.update(affected_vizs)
             
         current_viz.set_computed_filter(self.compute_filter(current_viz, viz_dict))
         
@@ -89,7 +89,7 @@ class VizGraph(object):
         #for viz_to_request in vizs_to_request.keys():
         #   self.parent_operations[viz_to_request] = index
 
-        return affected_vizs.keys()
+        return vizs_to_request.keys()
         #self.viz_requests = []
         #for viz in vizs_to_request.keys():
         #    self.operation_count += 1
@@ -138,6 +138,7 @@ class VizGraph(object):
             else:
                 source_strs = source_strs.replace(src, "NULL")
         source_strs = source_strs.replace("and NULL", "").replace("NULL and", "").replace("or NULL", "").replace("NULL or", "").replace("NULL", "").strip().lstrip("and ")
+        source_strs = source_strs.replace("and", "AND")
         if len(source_strs) > 0 and len(filters) > 0:
             source_strs += " AND "
         return source_strs + " AND ".join(filters)

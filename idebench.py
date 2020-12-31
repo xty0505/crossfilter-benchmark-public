@@ -60,6 +60,10 @@ class IDEBench:
         parser.add_option("--gt-folder", dest="gt_folder", action="store", help="The path to the groundtruth", default=None)
         parser.add_option("--gt-for", dest="gt_for", action="store", help="If set only computes the ground-truth for results found in this file", default=None)
 
+        # workflow 的起始时间, 为了与QueryBot5000适配
+        parser.add_option("--start", dest="start", action="store", help="record start time of workflow", default=None)
+        parser.add_option("--result-dir", dest="result_dir", action="store", help="directory to store result", default="results/")
+
         (self.options, args) = parser.parse_args()
         
         self.workflow_start_time = -1
@@ -153,7 +157,7 @@ class IDEBench:
                                                     self.run()
 
                                                 if self.options.evaluate:
-                                                    self.evaluator.evaluate(self.options.evaluate)
+                                                    self.evaluator.evaluate(self.options.result_dir + '%s.json'%(self.get_config_hash()))
 
     def setup(self, driver_arg = None):
         logger.info("loading schema")
@@ -175,11 +179,15 @@ class IDEBench:
         self.vizgraph = VizGraph()
         with open(self.get_workflow_path()) as f:
             json_data = json.load(f)
-            for s in json_data["setup"]:
-                self.vizgraph.add_viz(s)
+            if 'start' in json_data.keys():
+                self.options.start = json_data["start"]
 
-            for s in json_data["setup"]:
-               self.vizgraph.apply_interaction(Operation(s))
+            if 'setup' in json_data.keys():
+                for s in json_data["setup"]:
+                    self.vizgraph.add_viz(s)
+
+                for s in json_data["setup"]:
+                   self.vizgraph.apply_interaction(Operation(s))
 
             self.workflow_interactions = json_data["interactions"]
 
@@ -200,10 +208,10 @@ class IDEBench:
                 global count
                 while do_poll:
                     try:
-                        process_result = queue.get(timeout=1)
+                        process_result = queue.get(timeout=10)
                     except Empty:
                         logger.info("result queue empty... trying again")
-                        continue
+                        break
                     if process_result is None:
                         continue
                     slf.deliver_viz_request([process_result])
@@ -224,7 +232,7 @@ class IDEBench:
                 self.process_interaction(interaction_index)
                 interaction_index +=1
 
-            do_poll = False
+            # do_poll = False
             if not self.options.groundtruth:
                 thread.join()
             self.end_run()
@@ -247,22 +255,25 @@ class IDEBench:
         if not self.options.groundtruth:
             for interaction in self.workflow_interactions:
                 vizs_to_request = self.vizgraph.apply_interaction(Operation(interaction))
-                expected_start_time = interaction["time"]
+                expected_start_time = interaction["time"] if 'time' in interaction else 0
                 for viz in vizs_to_request:
                     if not operation_id in self.operation_results["results"]:
                         non_delivered_count += 1
                         self.deliver_viz_request([VizRequest(operation_id, event_id, expected_start_time, viz, True)])
                     else:
                         delivered_count += 1
-                    expected_start_time = interaction["time"]
+                    expected_start_time = interaction["time"] if 'time' in interaction else 0
                     operation_id += 1
                     event_id += 1
         
         if non_delivered_count > 0:
             logger.info("added %s non-delivered results to final result" % non_delivered_count)
 
-        path = "results/%s.json" % (self.get_config_hash())
-        
+        # path = "results/%s.json" % (self.get_config_hash())
+        if not os.path.exists(self.options.result_dir):
+            os.mkdir(self.options.result_dir)
+        path = self.options.result_dir + '%s.json'%(self.get_config_hash())
+
         if not self.options.groundtruth:
             logger.info("saving results to %s" % path)
             with open(path, "w") as fp:
@@ -279,8 +290,8 @@ class IDEBench:
         interaction = self.workflow_interactions[interaction_index]
         next_interaction = self.workflow_interactions[interaction_index + 1] if interaction_index +1 < len(self.workflow_interactions) else None
         vizs_to_request = self.vizgraph.apply_interaction(Operation(interaction))
-        expected_start_time = interaction["time"]
-        
+        expected_start_time = interaction["time"] if 'time' in interaction else 0
+
         viz_requests = []
         for viz in vizs_to_request:
             viz_requests.append(VizRequest(self.current_vizrequest_index, self.current_interaction_index, expected_start_time, viz))
@@ -311,14 +322,15 @@ class IDEBench:
  
         resultlist = []
 
-        delay = 0
-        think_time = 0
-        if "time" in interaction and next_interaction:
-            original_think_time = next_interaction["time"] - interaction["time"]
-            delay = min(0, next_interaction["time"] - (util.get_current_ms_time() - self.benchmark_start_time))
-            think_time = max(0, delay + original_think_time)
-        else:
-            think_time = self.options.settings_thinktime
+        # delay = 0
+        # think_time = 0
+        # if "time" in interaction and next_interaction:
+        #     original_think_time = next_interaction["time"] - interaction["time"]
+        #     delay = min(0, next_interaction["time"] - (util.get_current_ms_time() - self.benchmark_start_time))
+        #     think_time = max(0, delay + original_think_time)
+        # else:
+        #     think_time = self.options.settings_thinktime
+        think_time = self.options.settings_thinktime
 
         if not self.options.groundtruth:
             time.sleep(think_time / 1000)

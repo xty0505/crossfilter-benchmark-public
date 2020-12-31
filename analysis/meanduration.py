@@ -90,16 +90,54 @@ def consolidate_results(filepath):
   #with open("result-duration.csv", "w") as f:
   #      df.to_csv(f)
 
+
+def generate_result_for_one_workflow(filepath):
+  li = []
+  total = 0
+  if os.path.exists(filepath):
+    if filepath.endswith(".csv"):
+      df = pd.read_csv(filepath)[["dataset", "dataset_size", "driver", "workflow", "dropped", "duration", "time_requirement"]]
+      df["time_violated"] = df["duration"] >= df["time_requirement"]
+      total += df["dropped"].count()
+      df = df[df["dropped"] == False]
+      df["duration"] = df["duration"].astype(int)
+      li.append(df)
+  print("\t\ttotal records observed", total)
+
+  resDf = []
+  resDf.extend(li)
+  resDf = pd.concat(resDf)
+  totalQueries = {
+    "flights": 1595,
+    "bike": 1500
+  }
+  aggRes = resDf.groupby(["dataset_size","dataset", "driver"]).agg(
+    meanDuration=('duration', 'mean'),
+    countAnswered=('duration', 'count'),
+    durationCiLower=('duration', computeCi95Lower),
+    durationCiUpper=('duration', computeCi95Upper),
+    durationStd=('duration', 'std'),
+    countViolated=('time_violated', 'sum')
+  ).reset_index().copy()
+  aggResDescribe = resDf.groupby(["dataset_size","dataset", "driver"]).agg('describe')['duration'].reset_index()
+  print(aggResDescribe.to_json(orient="records"))
+  aggRes["responseRate"] = aggRes["countAnswered"] - aggRes["countViolated"]
+  for i in range(len(aggRes["dataset"])):
+    aggRes.loc[i,"responseRate"] = aggRes.loc[i,"responseRate"] * 1.0 / totalQueries[aggRes.loc[i,"dataset"]]
+    #print(aggRes.loc[i,"responseRate"])
+  return resDf,aggRes
+
+
 if __name__ == "__main__":
   if len(sys.argv) > 1:
     filepath = sys.argv[1]
     #df=consolidate_results(filepath)
     #df=consolidate_results_all_drivers(filepath)
-    df,durationMeans=generate_results_all_dataset_sizes(filepath)
+    # df,durationMeans=generate_results_all_dataset_sizes(filepath)
+    df, durationMeans = generate_result_for_one_workflow(filepath)
     print("final results:")
     print(durationMeans.to_json(orient="records"))
-    with open(os.path.join(filepath,"final_results.json"),"w") as f:
-      f.write(json.dumps(durationMeans.to_json(orient="records")))
+    durationMeans.to_json(os.path.join("reports/","result.json"), orient="records", indent=4)
   else:
     print("usage: python3 meanduration [path to reports]")
     sys.exit(0)
