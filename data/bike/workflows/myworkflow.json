@@ -1,0 +1,3608 @@
+{
+    "name": "generated",
+    "dataset": "bike",
+    "seed": 25000,
+    "config": "independent.json",
+    "interactions": [
+        {
+            "name": "viz_0",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_0",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_0",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_1",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_0",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_2",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_2",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_3",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TRIP_DURATION"
+                }
+            ]
+        },
+        {
+            "name": "viz_4",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_5",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_1",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_1",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_1",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_4",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_6",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_7",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_8",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_9",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_4",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_8",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_0",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_6",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_10",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_2",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_0",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_11",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_4",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_10",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_10",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_2",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_11",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_11",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_3",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_1",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_3",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_12",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_12",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_8",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_13",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_14",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_8",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_15",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_15",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_16",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_10",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_17",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_5",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_12",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_18",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LATITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_11",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_4",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_19",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_17",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_4",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_4",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_18",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_20",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TRIP_DURATION"
+                }
+            ]
+        },
+        {
+            "name": "viz_21",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TRIP_DURATION"
+                }
+            ]
+        },
+        {
+            "name": "viz_5",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_18",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_22",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_23",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_22",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_20",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_5",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_13",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_24",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_23",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_16",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_4",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_25",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_3",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_1",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_10",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_18",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_20",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_26",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_27",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LATITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_26",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_24",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_12",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_14",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_11",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_19",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_16",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_2",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_28",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "Wards"
+                }
+            ]
+        },
+        {
+            "name": "viz_7",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_3",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_13",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_5",
+            "filter": "(START_TIME BETWEEN 2014 and 2015)"
+        },
+        {
+            "name": "viz_29",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_30",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_27",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_31",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_5",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_22",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_0",
+            "filter": "(START_TIME BETWEEN 2014 and 2015)"
+        },
+        {
+            "name": "viz_32",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_4",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_2",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_33",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_32",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_15",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_34",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_26",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_6",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_3",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_35",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_8",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_16",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_13",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_36",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_16",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_14",
+            "filter": "(START_TIME BETWEEN 2013 and 2015)"
+        },
+        {
+            "name": "viz_37",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_21",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_38",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_5",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_39",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "Wards"
+                }
+            ]
+        },
+        {
+            "name": "viz_21",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_37",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_40",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_7",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_30",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_41",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_5",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_42",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TRIP_DURATION"
+                }
+            ]
+        },
+        {
+            "name": "viz_8",
+            "filter": "(START_TIME BETWEEN 2013 and 2015)"
+        },
+        {
+            "name": "viz_41",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_11",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_35",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_20",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_43",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_22",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_41",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_44",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_37",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_4",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_38",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_45",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_12",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_25",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_16",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_33",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_43",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_46",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_29",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_31",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_47",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_12",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_23",
+            "filter": "(START_TIME BETWEEN 2014 and 2015)"
+        },
+        {
+            "name": "viz_28",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_46",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_48",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_49",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_50",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_51",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_5",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_38",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_6",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_52",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_18",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_15",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_33",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_53",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_54",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_51",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_10",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_15",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_13",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_7",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_0",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_55",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_56",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_57",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_45",
+            "filter": "(START_TIME BETWEEN 2014 and 2015)"
+        },
+        {
+            "name": "viz_27",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_58",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_59",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_60",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TO_LATITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_1",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_61",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_10",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_20",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_29",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_61",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_29",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_62",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_63",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_64",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_15",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_56",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_13",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_14",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_51",
+            "filter": "(START_TIME BETWEEN 2014 and 2015)"
+        },
+        {
+            "name": "viz_65",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_66",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_60",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_67",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_20",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_68",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_34",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_1",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_69",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_47",
+            "filter": "(START_TIME BETWEEN 2014 and 2015)"
+        },
+        {
+            "name": "viz_57",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_47",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_32",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_3",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_30",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_70",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "Wards"
+                }
+            ]
+        },
+        {
+            "name": "viz_21",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_30",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_71",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_62",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_72",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_46",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_56",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_25",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_37",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_41",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_73",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_74",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_75",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_76",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_27",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_77",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_78",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TO_LATITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_17",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_79",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_80",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TO_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_70",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_35",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_67",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_81",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_6",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_82",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_2",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_46",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_47",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_6",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_44",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_27",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_83",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_84",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_85",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_86",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_79",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_3",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_87",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TRIP_DURATION"
+                }
+            ]
+        },
+        {
+            "name": "viz_80",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_88",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_7",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_3",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_27",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_89",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_29",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_69",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_6",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_90",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_91",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_92",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_36",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_81",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_93",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_70",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_55",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_94",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_57",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_95",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_68",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_17",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_96",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TRIP_DURATION"
+                }
+            ]
+        },
+        {
+            "name": "viz_63",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_97",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_14",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_98",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_99",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_100",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_75",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_93",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_101",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_102",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LATITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_103",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_46",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_13",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_104",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TO_LATITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_92",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_80",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_90",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_46",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_105",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_106",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_22",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_79",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_89",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_78",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_107",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_9",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_35",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_102",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_108",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_105",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_109",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_33",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_93",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_94",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_110",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_14",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_35",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_22",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_51",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_30",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_43",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_60",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_111",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_39",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_8",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_47",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_50",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_39",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_112",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_113",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TRIP_DURATION"
+                }
+            ]
+        },
+        {
+            "name": "viz_57",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_113",
+            "filter": "(START_TIME BETWEEN 2013 and 2015)"
+        },
+        {
+            "name": "viz_114",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_27",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_115",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TO_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_116",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_117",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TRIP_DURATION"
+                }
+            ]
+        },
+        {
+            "name": "viz_118",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_40",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_43",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_84",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_62",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_119",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_25",
+            "filter": "(START_TIME BETWEEN 2014 and 2015)"
+        },
+        {
+            "name": "viz_101",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_16",
+            "filter": "(START_TIME BETWEEN 2013 and 2015)"
+        },
+        {
+            "name": "viz_8",
+            "filter": "(START_TIME BETWEEN 2014 and 2015)"
+        },
+        {
+            "name": "viz_120",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LATITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_77",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_83",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_41",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_121",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_122",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_26",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_73",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_45",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_123",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_124",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_89",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_125",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_126",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_52",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_79",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_127",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_107",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_51",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_36",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_128",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_97",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_6",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_18",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_96",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_107",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_59",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_129",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_38",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_78",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_13",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_130",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TO_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_131",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_95",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_60",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_132",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_30",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_32",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_133",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_19",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_30",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_134",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_56",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_1",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_2",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_2",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_112",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_118",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_106",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_59",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_135",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_64",
+            "filter": "(START_TIME BETWEEN 2013 and 2015)"
+        },
+        {
+            "name": "viz_136",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "Wards"
+                }
+            ]
+        },
+        {
+            "name": "viz_71",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_94",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_46",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_131",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_84",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_43",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_137",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_33",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_11",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_56",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_138",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_116",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_139",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_139",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_61",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_26",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_72",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_140",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_97",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_49",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_71",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_105",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_132",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_141",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_142",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_142",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_143",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_132",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_72",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_144",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_145",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_146",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_147",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "TO_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_148",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_149",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_150",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_151",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_79",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_152",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_11",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_153",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_154",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_35",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_101",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_155",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_156",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_58",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_126",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_128",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_81",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_64",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_120",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_30",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_104",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_157",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_28",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_158",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_159",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_143",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_160",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_1",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_37",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_161",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_72",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_143",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_12",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_76",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_162",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_106",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_95",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_11",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_104",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_132",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_23",
+            "filter": "(START_TIME BETWEEN 2014 and 2015)"
+        },
+        {
+            "name": "viz_45",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_163",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_81",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_76",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_57",
+            "filter": "(START_TIME BETWEEN 2015 and 2015)"
+        },
+        {
+            "name": "viz_14",
+            "filter": "(START_TIME BETWEEN 2013 and 2016)"
+        },
+        {
+            "name": "viz_61",
+            "filter": "USER_TYPE IN ('Subscriber','Customer')"
+        },
+        {
+            "name": "viz_164",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_1",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_164",
+            "filter": "(START_TIME BETWEEN 2016 and 2016)"
+        },
+        {
+            "name": "viz_1",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_96",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_165",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_30",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_166",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_65",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_65",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_59",
+            "filter": "USER_TYPE IN ('Customer','Subscriber')"
+        },
+        {
+            "name": "viz_113",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_167",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "Wards"
+                }
+            ]
+        },
+        {
+            "name": "viz_6",
+            "filter": "(START_TIME BETWEEN 2014 and 2016)"
+        },
+        {
+            "name": "viz_168",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_169",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_170",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_107",
+            "filter": "(START_TIME BETWEEN 2014 and 2015)"
+        },
+        {
+            "name": "viz_82",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_85",
+            "filter": "USER_TYPE IN ('Customer')"
+        },
+        {
+            "name": "viz_171",
+            "binning": [
+                {
+                    "dimension": "USER_TYPE"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "avg",
+                    "dimension": "FROM_LONGITUDE"
+                }
+            ]
+        },
+        {
+            "name": "viz_148",
+            "filter": "(START_TIME BETWEEN 2015 and 2016)"
+        },
+        {
+            "name": "viz_1",
+            "filter": "USER_TYPE IN ('Subscriber')"
+        },
+        {
+            "name": "viz_172",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        },
+        {
+            "name": "viz_173",
+            "binning": [
+                {
+                    "dimension": "START_TIME"
+                }
+            ],
+            "perBinAggregates": [
+                {
+                    "type": "count"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "driver-names": ["vizcube"],
+    "driver-args": [{
+        "name": "bike_10M",
+        "dimensions": ["geohash","USER_TYPE","START_TIME"],
+        "types": ["spatial", "categorical", "temporal"],
+        "cube_dir": "D:\\PyCharmProjects\\vizcube-web\\cube\\",
+        "method": "direct"
+    }],
+    "settings-datasets": ["bike"],
+    "settings-workflows": ["myworkflow"],
+    "settings-sizes": ["10M"],
+    "settings-thinktimes": [1000],
+    "settings-time-requirements": [1000],
+    "settings-confidence-levels": [95],
+    "settings-normalized": false,
+    "evaluate": false,
+    "run": true
+}

@@ -1,0 +1,97 @@
+{
+  "tables": {
+    "fact": {
+      "name": "tbl_bike",
+      "fields": [
+        {
+          "field": "TRIP_ID",
+          "type": "categorical"
+        },
+        {
+          "field": "START_TIME",
+          "type": "temporal"
+        },
+        {
+          "field": "STOP_TIME",
+          "type": "temporal"
+        },
+        {
+          "field": "BIKE_ID",
+          "type": "categorical"
+        },
+        {
+          "field": "TRIP_DURATION",
+          "type": "quantitative"
+        },
+        {
+          "field": "FROM_STATION_ID",
+          "type": "categorical"
+        },
+        {
+          "field": "FROM_STATION_NAME",
+          "type": "categorical"
+        },
+        {
+          "field": "TO_STATION_ID",
+          "type": "categorical"
+        },
+        {
+          "field": "TO_STATION_NAME",
+          "type": "categorical"
+        },
+        {
+          "field": "USER_TYPE",
+          "type": "categorical"
+        },
+        {
+          "field": "GENDER",
+          "type": "categorical"
+        },
+        {
+          "field": "BIRTH_YEAR",
+          "type": "categorical"
+        },
+        {
+          "field": "FROM_LATITUDE",
+          "type": "quantitative"
+        },
+        {
+          "field": "FROM_LONGITUDE",
+          "type": "quantitative"
+        },
+        {
+          "field": "FROM_LOCATION",
+          "type": "categorical"
+        },
+        {
+          "field": "TO_LATITUDE",
+          "type": "quantitative"
+        },
+        {
+          "field": "TO_LONGITUDE",
+          "type": "quantitative"
+        },
+        {
+          "field": "TO_LOCATION",
+          "type": "categorical"
+        },
+        {
+          "field": "Boundaries_-_ZIP_Codes",
+          "type": "categorical"
+        },
+        {
+          "field": "ZIP_Codes",
+          "type": "categorical"
+        },
+        {
+          "field": "Community Areas",
+          "type": "categorical"
+        },
+        {
+          "field": "Wards",
+          "type": "quantitative"
+        }
+      ]
+    }
+  }
+}

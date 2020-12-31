@@ -29,12 +29,13 @@ class Evaluator:
         args = result_json["args"]
         groundtruth = None
 
-        gt_folder_path = os.path.join(self.options.gt_folder, args["driver_name"], args["settings_dataset"], args["settings_size"])
-        gt_path = os.path.join(gt_folder_path, args["settings_workflow"] + ".json")
+        if self.options.gt_folder is not None:
+            gt_folder_path = os.path.join(self.options.gt_folder, args["driver_name"], args["settings_dataset"], args["settings_size"])
+            gt_path = os.path.join(gt_folder_path, args["settings_workflow"] + ".json")
 
-        if gt_path:
-            with open(gt_path, "r") as json_data:
-                groundtruth = json.load(json_data)["results"]
+            if gt_path:
+                with open(gt_path, "r") as json_data:
+                    groundtruth = json.load(json_data)["results"]
         
         with open("reports/%s.csv" % os.path.splitext(ntpath.basename(workflow_path))[0], 'w') as fp:
             w = csv.DictWriter(fp, [

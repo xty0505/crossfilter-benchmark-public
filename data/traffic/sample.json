@@ -1,0 +1,25 @@
+{
+    "tables": {
+        "fact": {
+            "name": "traffic",
+            "fields": [
+                {
+                    "field": "time",
+                    "type": "categorical"
+                },
+                {
+                    "field": "link_id",
+                    "type": "categorical"
+                },
+                {
+                    "field": "vehicle_num",
+                    "type": "quantitative"
+                },
+                {
+                    "field": "velocity_ave",
+                    "type": "quantitative"
+                }
+            ]
+        }
+    }
+}

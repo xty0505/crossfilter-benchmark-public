@@ -1,0 +1,64 @@
+{
+    "nextAction": {
+        "values": [
+            "workflowgen.selectionaction.SelectionAction",
+            "workflowgen.filteraction.FilterAction",
+            "workflowgen.linkaction.LinkAction",
+            "workflowgen.vizaction.VizAction"
+        ],
+        "pd": [
+            0.0,
+            0.7,
+            0.0,
+            0.3
+        ]
+    },
+    "numBinDimensionsPerViz": {
+        "values": [
+            1
+        ],
+        "pd": [
+            1
+        ]
+    },
+    "numFiltersPerViz": {
+        "values": [
+            1,
+            2,
+            3
+        ],
+        "pd": [
+            0.5,
+            0.25,
+            0.25
+        ]
+    },
+    "perBinAggregates": {
+        "values": [
+            "count",
+            "avg"
+        ],
+        "pd": [
+            0.8,
+            0.2
+        ]
+    },
+    "dimensions": [
+        {
+            "name": "time",
+            "p": 10
+        },
+        {
+            "name": "link_id",
+            "p": 10
+        },
+        {
+            "name": "vehicle_num",
+            "p": 5
+        },
+        {
+            "name": "velocity_ave",
+            "p": 5
+        }
+    ]
+}
