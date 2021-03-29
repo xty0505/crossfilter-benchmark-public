@@ -24,7 +24,7 @@ class IDEBenchDriver:
         self.password = driver_arg['password']
         self.db = driver_arg['db']
         self.table = driver_arg['table']
-        self.table_to_replace = options['settings-datasets']
+        self.table_to_replace = driver_arg['table-to-replace']
 
 
     def execute_vizrequest(self, viz_request, options, schema, result_queue):
