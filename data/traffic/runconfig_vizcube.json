@@ -1,0 +1,19 @@
+{
+    "driver-names": ["vizcube"],
+    "driver-args": [{
+        "name": "traffic",
+        "dimensions": ["link_id","vehicle_num"],
+        "types": ["categrocial", "categorical"],
+        "cube_dir": "D:\\PyCharmProjects\\vizcube-web\\cube\\",
+        "method": "direct"
+    }],
+    "settings-datasets": ["traffic"],
+    "settings-workflows": ["myworkflow"],
+    "settings-sizes": ["3k"],
+    "settings-thinktimes": [1000],
+    "settings-time-requirements": [500],
+    "settings-confidence-levels": [95],
+    "settings-normalized": false,
+    "evaluate": true,
+    "run": true
+}

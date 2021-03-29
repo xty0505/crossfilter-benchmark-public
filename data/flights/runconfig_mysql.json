@@ -1,0 +1,20 @@
+{
+    "driver-names": ["mysql"],
+    "driver-args": [{
+        "host": "localhost",
+        "port": "3306",
+        "user": "root",
+        "password": "root",
+        "db": "vizcube",
+        "table": "flights_1M"
+    }],
+    "settings-datasets": ["flights"],
+    "settings-workflows": ["0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_flights_0_workflow"],
+    "settings-sizes": ["1M"],
+    "settings-thinktimes": [1000],
+    "settings-time-requirements": [1000],
+    "settings-confidence-levels": [95],
+    "settings-normalized": false,
+    "evaluate": true,
+    "run": false
+}
