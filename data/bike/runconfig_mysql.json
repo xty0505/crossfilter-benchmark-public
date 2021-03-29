@@ -6,7 +6,8 @@
         "user": "root",
         "password": "root",
         "db": "vizcube",
-        "table": "bike_10M"
+        "table": "bike_10M",
+        "table-to-replace": "tbl_bike"
     }],
     "settings-datasets": ["bike"],
     "settings-workflows": ["myworkflow"],
