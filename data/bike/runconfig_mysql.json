@@ -8,7 +8,7 @@
         "db": "vizcube",
         "table": "bike_10M"
     }],
-    "settings-datasets": ["tbl_bike"],
+    "settings-datasets": ["bike"],
     "settings-workflows": ["myworkflow"],
     "settings-sizes": ["10M"],
     "settings-thinktimes": [1000],
