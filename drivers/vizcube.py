@@ -5,7 +5,7 @@ import sys
 import traceback
 from threading import Thread
 
-sys.path.extend(['D:\\PyCharmProjects\\vizcube-web', 'D:\\PyCharmProjects\\vizcube-web\\vizcube'])
+sys.path.extend(['/home/xty/pj/VizCube/vizcube'])
 
 from common import util
 from vizcube_parallel import VizCube

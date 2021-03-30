@@ -4,7 +4,7 @@
         "name": "bike_10M",
         "dimensions": ["geohash","USER_TYPE","START_TIME"],
         "types": ["spatial", "categorical", "temporal"],
-        "cube_dir": "D:\\PyCharmProjects\\vizcube-web\\cube\\",
+        "cube_dir": "/home/xty/pj/VizCube/cube",
         "method": "direct"
     }],
     "settings-datasets": ["bike"],
