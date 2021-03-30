@@ -42,6 +42,7 @@ class IDEBenchDriver:
         cursor.execute(sql_statement)
         # data = cursor.fetchall()
         viz_request.end_time = util.get_current_ms_time()
+        print('query time: '+str(viz_request.end_time-viz_request.start_time))
 
         cursor.close()
 
@@ -94,7 +95,7 @@ class IDEBenchDriver:
     def workflow_start(self):
         self.isRunning = True
         # connection
-        self.conn = pymysql.connect(self.host, self.port, self.user, self.password, self.db)
+        self.conn = pymysql.connect(host=self.host, port=int(self.port), user=self.user, password=self.password, database=self.db)
         thread = Thread(target=self.process)
         thread.start()
 

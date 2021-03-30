@@ -190,7 +190,7 @@ class IDEBench:
                    self.vizgraph.apply_interaction(Operation(s))
 
             self.workflow_interactions = json_data["interactions"]
-
+            print(len(self.workflow_interactions))
             self.operation_results = OrderedDict({ "args": vars(self.options), "results": OrderedDict() })
             self.current_interaction_index = 0
             self.current_vizrequest_index = 0
@@ -208,7 +208,7 @@ class IDEBench:
                 global count
                 while do_poll:
                     try:
-                        process_result = queue.get(timeout=10)
+                        process_result = queue.get(timeout=70)
                     except Empty:
                         logger.info("result queue empty... trying again")
                         break
@@ -265,7 +265,7 @@ class IDEBench:
                     expected_start_time = interaction["time"] if 'time' in interaction else 0
                     operation_id += 1
                     event_id += 1
-        
+        logger.info("total queries: %s" % operation_id)
         if non_delivered_count > 0:
             logger.info("added %s non-delivered results to final result" % non_delivered_count)
 
