@@ -16,6 +16,6 @@
     "settings-time-requirements": [1000],
     "settings-confidence-levels": [95],
     "settings-normalized": false,
-    "evaluate": true,
-    "run": false
+    "evaluate": false,
+    "run": true
 }

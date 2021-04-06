@@ -6,7 +6,8 @@
         "user": "root",
         "password": "root",
         "db": "vizcube",
-        "table": "flights_1M"
+        "table": "flights_1M",
+        "table-to-replace": "flights"
     }],
     "settings-datasets": ["flights"],
     "settings-workflows": ["0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_flights_0_workflow"],

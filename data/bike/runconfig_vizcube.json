@@ -1,10 +1,10 @@
 {
     "driver-names": ["vizcube"],
     "driver-args": [{
-        "name": "bike_10M",
+        "name": "bike",
         "dimensions": ["geohash","USER_TYPE","START_TIME"],
         "types": ["spatial", "categorical", "temporal"],
-        "cube_dir": "/home/xty/pj/VizCube/cube",
+        "cube_dir": "/home/xty/pj/VizCube/cube/",
         "method": "direct"
     }],
     "settings-datasets": ["bike"],
