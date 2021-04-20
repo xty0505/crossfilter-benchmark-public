@@ -28,6 +28,18 @@
         "responseRate": 0.875862069
       },
       {
+          "dataset_size":"1M",
+          "dataset":"flights(1M)",
+          "driver":"mysql",
+          "meanDuration":231.2308791994,
+          "countAnswered":1399,
+          "durationCiLower":230.1254716025,
+          "durationCiUpper":232.3362867964,
+          "durationStd":21.0769152448,
+          "countViolated":false,
+          "responseRate":0.8771159875
+      },
+      {
         "dataset_size": "10M",
         "dataset": "bike(10M)",
         "driver": "direct",
@@ -50,6 +62,18 @@
         "durationStd": 0.6560764368,
         "countViolated": false,
         "responseRate": 1.0
+      },
+      {
+        "dataset_size":"10M",
+        "dataset":"bike(10M)",
+        "driver":"mysql",
+        "meanDuration":18323.5943396226,
+        "countAnswered":106,
+        "durationCiLower":13900.6027848636,
+        "durationCiUpper":22746.5858943816,
+        "durationStd":22966.0754421565,
+        "countViolated":95.0,
+        "responseRate":0.0073333333
       }
     ]
   },
@@ -74,7 +98,7 @@
       {
         "mark": {"type": "bar", "clip": true},
         "encoding": {
-          "y": {"field": "driver", "type": "nominal", "title": "Query method"},
+          "y": {"field": "driver", "type": "nominal", "title": "Driver"},
           "x": {
             "field": "respRate",
             "type": "quantitative",
@@ -84,7 +108,7 @@
           "color": {
             "field": "driver",
             "type": "nominal",
-            "title": "Query method",
+            "title": "Driver",
             "legend": null
           }
         }
@@ -99,7 +123,7 @@
         },
         "encoding": {
           "text": {"field": "respRateNice", "type": "nominal"},
-          "y": {"field": "driver", "type": "nominal", "title": "Query method"},
+          "y": {"field": "driver", "type": "nominal", "title": "Driver"},
           "x": {"field": "respRateTextPos", "type": "quantitative"}
         }
       }

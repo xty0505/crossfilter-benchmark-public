@@ -5,11 +5,11 @@ import sys
 import traceback
 from threading import Thread
 
-sys.path.extend(['/home/xty/pj/VizCube/vizcube'])
+sys.path.extend(['/home/xty/pj/CrossIndex/crossindex'])
 
 from common import util
-from vizcube_parallel import VizCube
-from vizcube_parallel import Query
+from crossindex_main import CrossIndex
+from crossindex_main import Query
 
 class IDEBenchDriver:
 
@@ -27,15 +27,15 @@ class IDEBenchDriver:
         print("vizcube cube-dir: %s" % driver_arg['cube_dir'])
         print("vizcube method: %s" % driver_arg['method'])
 
-        self.vizcube = VizCube(driver_arg['name'], driver_arg['dimensions'], driver_arg['types'])
+        self.crossindex = CrossIndex(driver_arg['name'], driver_arg['dimensions'], driver_arg['types'])
         if os.path.exists(driver_arg['cube_dir'] + driver_arg['name'] + '.cube'):
-            self.vizcube.load(driver_arg['cube_dir'], driver_arg['name'])
+            self.crossindex.load(driver_arg['cube_dir'], driver_arg['name'])
         else:
             raise Exception("no cube exist!")
         self.method = driver_arg['method']
-        self.q = Query(cube=self.vizcube)
-        self.cnt = 0
-        self.threshold = 4
+        self.cached_q = Query(cube=self.crossindex)
+        # self.cnt = 0
+        # self.threshold = 4
 
     def workflow_start(self):
         self.isRunning = True
@@ -79,7 +79,7 @@ class IDEBenchDriver:
         sql_statement = viz_request.viz.get_computed_filter_as_sql(schema)
         print(sql_statement)
 
-        q = Query(cube=self.vizcube)
+        q = Query(cube=self.crossindex)
         q.parse(sql_statement)
 
         # record start time
@@ -88,7 +88,7 @@ class IDEBenchDriver:
         if self.method == "direct":
             self.direct_query(q)
         elif self.method == "backward":
-            self.backward_query(q, sql_statement)
+            self.backward_query(q)
 
         # record end time
         viz_request.end_time = util.get_current_ms_time()
@@ -101,20 +101,14 @@ class IDEBenchDriver:
 
     def direct_query(self, q):
         start = time.time()
-        self.vizcube.query(q)
+        self.crossindex.query(q)
         end = time.time()
         print('direct query time:' + str(end - start))
 
-    def backward_query(self, q, sql):
+    def backward_query(self, q):
         start = time.time()
-        if self.q.is_backward_query(sql):
-            self.vizcube.backward_query(self.q, q.wheres)
-        else:
-            self.vizcube.query(q)
-            self.cnt += 1
+        self.crossindex.backward_query2(self.cached_q, q)
         end = time.time()
         print('backward query time:' + str(end - start))
-        # update self.q
-        if self.cnt > self.threshold:
-            self.q = q
-            self.cnt = 0
+        # update cache
+        self.cached_q = q
