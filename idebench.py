@@ -63,6 +63,7 @@ class IDEBench:
         # workflow 的起始时间, 为了与QueryBot5000适配
         parser.add_option("--start", dest="start", action="store", help="record start time of workflow", default=None)
         parser.add_option("--result-dir", dest="result_dir", action="store", help="directory to store result", default="results/")
+        parser.add_option("--report-dir", dest="report_dir", action="store", help="directory to store report", default="reports/")
 
         (self.options, args) = parser.parse_args()
         
@@ -208,10 +209,11 @@ class IDEBench:
                 global count
                 while do_poll:
                     try:
-                        process_result = queue.get(timeout=70)
+                        process_result = queue.get(timeout=2)
                     except Empty:
                         logger.info("result queue empty... trying again")
-                        break
+                        process_result = None
+                        # break
                     if process_result is None:
                         continue
                     slf.deliver_viz_request([process_result])
@@ -232,7 +234,7 @@ class IDEBench:
                 self.process_interaction(interaction_index)
                 interaction_index +=1
 
-            # do_poll = False
+            do_poll = False
             if not self.options.groundtruth:
                 thread.join()
             self.end_run()
@@ -291,6 +293,8 @@ class IDEBench:
         next_interaction = self.workflow_interactions[interaction_index + 1] if interaction_index +1 < len(self.workflow_interactions) else None
         vizs_to_request = self.vizgraph.apply_interaction(Operation(interaction))
         expected_start_time = interaction["time"] if 'time' in interaction else 0
+        # if interaction_index<5: # avoid initial query without predicates
+            # return
 
         viz_requests = []
         for viz in vizs_to_request:
@@ -322,15 +326,15 @@ class IDEBench:
  
         resultlist = []
 
-        # delay = 0
-        # think_time = 0
-        # if "time" in interaction and next_interaction:
-        #     original_think_time = next_interaction["time"] - interaction["time"]
-        #     delay = min(0, next_interaction["time"] - (util.get_current_ms_time() - self.benchmark_start_time))
-        #     think_time = max(0, delay + original_think_time)
-        # else:
-        #     think_time = self.options.settings_thinktime
-        think_time = self.options.settings_thinktime
+        delay = 0
+        think_time = 0
+        if "time" in interaction and next_interaction:
+            original_think_time = next_interaction["time"] - interaction["time"]
+            delay = min(0, next_interaction["time"] - (util.get_current_ms_time() - self.benchmark_start_time))
+            think_time = max(0, delay + original_think_time)
+        else:
+            think_time = self.options.settings_thinktime
+        # think_time = self.options.settings_thinktime
 
         if not self.options.groundtruth:
             time.sleep(think_time / 1000)
@@ -353,6 +357,7 @@ class IDEBench:
             operation_result["end_time"] = viz_request.end_time - self.workflow_start_time
             operation_result["time_violated"] = viz_request.timedout
             operation_result["dropped"] = viz_request.dropped
+            operation_result["backward"] = viz_request.backward
             #operation_result["t_pause"] = viz_request.t_pause
             #operation_result["t_start"] = viz_request.t_start
             operation_result["progress"] = viz_request.progress

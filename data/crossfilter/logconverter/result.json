@@ -1,0 +1,98 @@
+{
+    "flights": {
+        "0": {
+            "queries": 1453.2142857142858,
+            "sessions": 54.5,
+            "query_per_session": 26.664482306684143,
+            "task_cnt": 14
+        },
+        "1": {
+            "queries": 966.7857142857143,
+            "sessions": 83.5,
+            "query_per_session": 11.578272027373824,
+            "task_cnt": 14
+        },
+        "2": {
+            "queries": 6643.928571428572,
+            "sessions": 257.42857142857144,
+            "query_per_session": 25.808823529411764,
+            "task_cnt": 14
+        },
+        "3": {
+            "queries": 11005.357142857143,
+            "sessions": 500.7857142857143,
+            "query_per_session": 21.976180288118673,
+            "task_cnt": 14
+        },
+        "4": {
+            "queries": 11916.07142857143,
+            "sessions": 594.0,
+            "query_per_session": 20.060726310726313,
+            "task_cnt": 14
+        }
+    },
+    "movies": {
+        "0": {
+            "queries": 1005.0,
+            "sessions": 34.57142857142857,
+            "query_per_session": 29.0702479338843,
+            "task_cnt": 14
+        },
+        "1": {
+            "queries": 1008.0,
+            "sessions": 42.57142857142857,
+            "query_per_session": 23.67785234899329,
+            "task_cnt": 14
+        },
+        "2": {
+            "queries": 9320.23076923077,
+            "sessions": 412.15384615384613,
+            "query_per_session": 22.613475177304966,
+            "task_cnt": 13
+        },
+        "3": {
+            "queries": 10807.5,
+            "sessions": 857.7857142857143,
+            "query_per_session": 12.599300524606544,
+            "task_cnt": 14
+        },
+        "4": {
+            "queries": 12571.5,
+            "sessions": 371.14285714285717,
+            "query_per_session": 33.872401847575055,
+            "task_cnt": 14
+        }
+    },
+    "weather": {
+        "0": {
+            "queries": 1998.5,
+            "sessions": 55.25,
+            "query_per_session": 36.171945701357465,
+            "task_cnt": 16
+        },
+        "1": {
+            "queries": 6318.8125,
+            "sessions": 394.125,
+            "query_per_session": 16.032508721852203,
+            "task_cnt": 16
+        },
+        "2": {
+            "queries": 6774.25,
+            "sessions": 361.6875,
+            "query_per_session": 18.729566269224122,
+            "task_cnt": 16
+        },
+        "3": {
+            "queries": 15956.9375,
+            "sessions": 337.5,
+            "query_per_session": 47.27981481481481,
+            "task_cnt": 16
+        },
+        "4": {
+            "queries": 13666.1875,
+            "sessions": 293.875,
+            "query_per_session": 46.503402807316036,
+            "task_cnt": 16
+        }
+    }
+}

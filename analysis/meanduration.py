@@ -123,7 +123,50 @@ def generate_result_for_one_workflow(filepath):
   print(aggResDescribe.to_json(orient="records"))
   aggRes["responseRate"] = aggRes["countAnswered"] - aggRes["countViolated"]
   for i in range(len(aggRes["dataset"])):
-    aggRes.loc[i,"responseRate"] = aggRes.loc[i,"responseRate"] * 1.0 / totalQueries[aggRes.loc[i,"dataset"]]
+    aggRes.loc[i,"responseRate"] = aggRes.loc[i,"responseRate"] * 1.0 / total
+    #print(aggRes.loc[i,"responseRate"])
+  return resDf,aggRes
+
+
+def generate_result_for_one_datasize(workflow_dir):
+  res = []
+  total = 0
+  for workflow in os.listdir(workflow_dir):
+    print("evaluating workflow", workflow)
+    filepath = os.path.join(workflow_dir, workflow)
+    if os.path.exists(filepath):
+      res1 = []
+      total1 = 0
+      if os.path.exists(filepath):
+        if filepath.endswith(".csv"):
+          df = pd.read_csv(filepath)[["dataset", "dataset_size", "driver", "workflow", "dropped", "duration", "time_requirement", "file_name"]]
+          df["time_violated"] = df["duration"] >= df["time_requirement"]
+          total1 += df["dropped"].count()
+          df = df[df["dropped"] == False]
+          df["duration"] = df["duration"].astype(int)
+          res1.append(df)
+      print("\t\ttotal records observed", total1)
+      res.extend(res1)
+      total += total1
+  resDf = pd.concat(res)
+  print("overall queries", total)
+  print("overall answered", len(resDf))
+  print("overall dropped", total-len(resDf))
+  print(resDf[resDf["duration"]>=20000][["file_name", "duration"]])
+  
+  aggRes = resDf.groupby(["dataset_size","dataset", "driver"]).agg(
+    meanDuration=('duration', 'mean'),
+    countAnswered=('duration', 'count'),
+    durationCiLower=('duration', computeCi95Lower),
+    durationCiUpper=('duration', computeCi95Upper),
+    durationStd=('duration', 'std'),
+    countViolated=('time_violated', 'sum')
+  ).reset_index().copy()
+  aggResDescribe = resDf.groupby(["dataset_size","dataset", "driver"]).agg('describe')['duration'].reset_index()
+  print(aggResDescribe.to_json(orient="records"))
+  aggRes["responseRate"] = aggRes["countAnswered"] - aggRes["countViolated"]
+  for i in range(len(aggRes["dataset"])):
+    aggRes.loc[i,"responseRate"] = aggRes.loc[i,"responseRate"] * 1.0 / total
     #print(aggRes.loc[i,"responseRate"])
   return resDf,aggRes
 
@@ -134,7 +177,9 @@ if __name__ == "__main__":
     #df=consolidate_results(filepath)
     #df=consolidate_results_all_drivers(filepath)
     # df,durationMeans=generate_results_all_dataset_sizes(filepath)
-    df, durationMeans = generate_result_for_one_workflow(filepath)
+
+    # df, durationMeans = generate_result_for_one_workflow(filepath)
+    df, durationMeans = generate_result_for_one_datasize(filepath)
     print("final results:")
     print(durationMeans.to_json(orient="records"))
     durationMeans.to_json(os.path.join("reports/","result.json"), orient="records", indent=4)

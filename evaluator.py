@@ -37,7 +37,7 @@ class Evaluator:
                 with open(gt_path, "r") as json_data:
                     groundtruth = json.load(json_data)["results"]
         
-        with open("reports/%s.csv" % os.path.splitext(ntpath.basename(workflow_path))[0], 'w') as fp:
+        with open(self.options.report_dir + "%s.csv" % os.path.splitext(ntpath.basename(workflow_path))[0], 'w') as fp:
             w = csv.DictWriter(fp, [
                                     "db_query_id",
                                     "file_name",
@@ -51,6 +51,7 @@ class Evaluator:
                                     "actual_start_time",
                                     "actual_end_time",
                                     "duration",
+                                    "backward",
                                     "dropped",
                                     "think_time",
                                     "time_requirement",
@@ -114,6 +115,7 @@ class Evaluator:
                 op_eval_result["actual_start_time"] = operation["start_time"]
                 op_eval_result["actual_end_time"] = operation["end_time"]
                 op_eval_result["duration"] = operation["end_time"] - operation["start_time"]
+                op_eval_result["backward"] = operation["backward"]
                 op_eval_result["dropped"] = operation["dropped"]
             
                 if "time_violated" in operation:

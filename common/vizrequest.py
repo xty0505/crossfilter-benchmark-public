@@ -21,6 +21,8 @@ class VizRequest:
         self.t_pause = 0
         self.progress = 0
         self.connection_time=0
+
+        self.backward = False
             
     def toJSON(self):
         return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)        

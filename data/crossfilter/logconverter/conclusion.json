@@ -1,0 +1,3698 @@
+[
+    {
+        "task_id": "cb8522f7-2aff-4bf0-b173-64ed7cbf14c0_weather_4_workflow.json",
+        "queries": 14427,
+        "sessions": 480,
+        "query_per_session": 30.05625,
+        "frequency": {
+            "28": 5,
+            "21": 7,
+            "77": 1,
+            "7": 451,
+            "14": 9,
+            "91": 1,
+            "371": 1,
+            "3150": 1,
+            "2191": 1,
+            "1547": 1,
+            "1295": 1,
+            "2135": 1
+        }
+    },
+    {
+        "task_id": "cb8522f7-2aff-4bf0-b173-64ed7cbf14c0_weather_2_workflow.json",
+        "queries": 707,
+        "sessions": 14,
+        "query_per_session": 50.5,
+        "frequency": {
+            "14": 6,
+            "21": 5,
+            "28": 2,
+            "462": 1
+        }
+    },
+    {
+        "task_id": "cb8522f7-2aff-4bf0-b173-64ed7cbf14c0_weather_3_workflow.json",
+        "queries": 10703,
+        "sessions": 1459,
+        "query_per_session": 7.335846470185058,
+        "frequency": {
+            "14": 4,
+            "7": 1440,
+            "21": 7,
+            "28": 2,
+            "70": 2,
+            "49": 2,
+            "35": 1,
+            "91": 1
+        }
+    },
+    {
+        "task_id": "cb8522f7-2aff-4bf0-b173-64ed7cbf14c0_movies_4_workflow.json",
+        "queries": 15197,
+        "sessions": 408,
+        "query_per_session": 37.247549019607845,
+        "frequency": {
+            "7": 382,
+            "21": 10,
+            "28": 3,
+            "14": 4,
+            "35": 1,
+            "4053": 1,
+            "1869": 1,
+            "126": 1,
+            "1386": 1,
+            "196": 1,
+            "490": 1,
+            "1148": 1,
+            "2870": 1
+        }
+    },
+    {
+        "task_id": "cb8522f7-2aff-4bf0-b173-64ed7cbf14c0_movies_2_workflow.json",
+        "queries": 9212,
+        "sessions": 272,
+        "query_per_session": 33.86764705882353,
+        "frequency": {
+            "21": 23,
+            "7": 191,
+            "14": 47,
+            "28": 3,
+            "231": 1,
+            "1113": 1,
+            "483": 1,
+            "1365": 1,
+            "245": 1,
+            "301": 1,
+            "616": 1,
+            "2296": 1
+        }
+    },
+    {
+        "task_id": "cb8522f7-2aff-4bf0-b173-64ed7cbf14c0_movies_1_workflow.json",
+        "queries": 1176,
+        "sessions": 70,
+        "query_per_session": 16.8,
+        "frequency": {
+            "14": 8,
+            "7": 56,
+            "399": 1,
+            "21": 4,
+            "189": 1
+        }
+    },
+    {
+        "task_id": "cb8522f7-2aff-4bf0-b173-64ed7cbf14c0_movies_0_workflow.json",
+        "queries": 1267,
+        "sessions": 71,
+        "query_per_session": 17.845070422535212,
+        "frequency": {
+            "14": 7,
+            "7": 61,
+            "21": 2,
+            "700": 1
+        }
+    },
+    {
+        "task_id": "cb8522f7-2aff-4bf0-b173-64ed7cbf14c0_movies_3_workflow.json",
+        "queries": 6552,
+        "sessions": 886,
+        "query_per_session": 7.395033860045147,
+        "frequency": {
+            "14": 9,
+            "7": 864,
+            "21": 7,
+            "28": 4,
+            "35": 1,
+            "84": 1
+        }
+    },
+    {
+        "task_id": "cb8522f7-2aff-4bf0-b173-64ed7cbf14c0_weather_1_workflow.json",
+        "queries": 4179,
+        "sessions": 27,
+        "query_per_session": 154.77777777777777,
+        "frequency": {
+            "14": 7,
+            "7": 2,
+            "21": 9,
+            "28": 5,
+            "567": 1,
+            "308": 1,
+            "2520": 1,
+            "343": 1
+        }
+    },
+    {
+        "task_id": "cb8522f7-2aff-4bf0-b173-64ed7cbf14c0_weather_0_workflow.json",
+        "queries": 1253,
+        "sessions": 31,
+        "query_per_session": 40.41935483870968,
+        "frequency": {
+            "7": 6,
+            "21": 11,
+            "14": 11,
+            "28": 2,
+            "770": 1
+        }
+    },
+    {
+        "task_id": "ac5ba714-92ab-41c8-8348-8978b55b86a1_movies_1_workflow.json",
+        "queries": 1967,
+        "sessions": 86,
+        "query_per_session": 22.872093023255815,
+        "frequency": {
+            "28": 1,
+            "14": 11,
+            "7": 61,
+            "287": 1,
+            "644": 1,
+            "21": 7,
+            "140": 1,
+            "42": 1,
+            "35": 1,
+            "63": 1
+        }
+    },
+    {
+        "task_id": "ac5ba714-92ab-41c8-8348-8978b55b86a1_movies_0_workflow.json",
+        "queries": 1043,
+        "sessions": 23,
+        "query_per_session": 45.34782608695652,
+        "frequency": {
+            "14": 1,
+            "7": 21,
+            "882": 1
+        }
+    },
+    {
+        "task_id": "ac5ba714-92ab-41c8-8348-8978b55b86a1_movies_4_workflow.json",
+        "queries": 8946,
+        "sessions": 48,
+        "query_per_session": 186.375,
+        "frequency": {
+            "7": 25,
+            "14": 12,
+            "140": 1,
+            "56": 1,
+            "21": 3,
+            "3206": 1,
+            "1505": 1,
+            "847": 1,
+            "973": 1,
+            "1169": 1,
+            "644": 1
+        }
+    },
+    {
+        "task_id": "ac5ba714-92ab-41c8-8348-8978b55b86a1_flights_0_workflow.json",
+        "queries": 870,
+        "sessions": 50,
+        "query_per_session": 17.4,
+        "frequency": {
+            "10": 1,
+            "5": 48,
+            "620": 1
+        }
+    },
+    {
+        "task_id": "ac5ba714-92ab-41c8-8348-8978b55b86a1_flights_1_workflow.json",
+        "queries": 490,
+        "sessions": 59,
+        "query_per_session": 8.305084745762711,
+        "frequency": {
+            "10": 19,
+            "5": 32,
+            "15": 5,
+            "20": 2,
+            "25": 1
+        }
+    },
+    {
+        "task_id": "ac5ba714-92ab-41c8-8348-8978b55b86a1_flights_2_workflow.json",
+        "queries": 11755,
+        "sessions": 543,
+        "query_per_session": 21.648250460405155,
+        "frequency": {
+            "5": 516,
+            "10": 14,
+            "15": 9,
+            "105": 1,
+            "4860": 1,
+            "1450": 1,
+            "2485": 1
+        }
+    },
+    {
+        "task_id": "ac5ba714-92ab-41c8-8348-8978b55b86a1_flights_3_workflow.json",
+        "queries": 15885,
+        "sessions": 239,
+        "query_per_session": 66.46443514644352,
+        "frequency": {
+            "5": 229,
+            "20": 2,
+            "15": 2,
+            "10": 3,
+            "55": 1,
+            "5745": 1,
+            "8840": 1
+        }
+    },
+    {
+        "task_id": "ac5ba714-92ab-41c8-8348-8978b55b86a1_flights_4_workflow.json",
+        "queries": 13020,
+        "sessions": 11,
+        "query_per_session": 1183.6363636363637,
+        "frequency": {
+            "10": 2,
+            "5": 3,
+            "15": 1,
+            "20": 1,
+            "2790": 1,
+            "2855": 1,
+            "3575": 1,
+            "3730": 1
+        }
+    },
+    {
+        "task_id": "ac5ba714-92ab-41c8-8348-8978b55b86a1_movies_2_workflow.json",
+        "queries": 16870,
+        "sessions": 21,
+        "query_per_session": 803.3333333333334,
+        "frequency": {
+            "7": 6,
+            "14": 2,
+            "21": 2,
+            "35": 1,
+            "63": 1,
+            "3542": 1,
+            "1120": 1,
+            "3283": 1,
+            "1666": 1,
+            "2443": 1,
+            "672": 1,
+            "1771": 1,
+            "448": 1,
+            "1715": 1
+        }
+    },
+    {
+        "task_id": "ac5ba714-92ab-41c8-8348-8978b55b86a1_movies_3_workflow.json",
+        "queries": 17297,
+        "sessions": 548,
+        "query_per_session": 31.563868613138688,
+        "frequency": {
+            "7": 528,
+            "21": 7,
+            "14": 6,
+            "28": 3,
+            "77": 1,
+            "42": 1,
+            "2926": 1,
+            "10241": 1
+        }
+    },
+    {
+        "task_id": "a00979ec-95d3-412e-873c-8c01322432df_weather_4_workflow.json",
+        "queries": 22127,
+        "sessions": 395,
+        "query_per_session": 56.017721518987344,
+        "frequency": {
+            "7": 379,
+            "14": 7,
+            "21": 2,
+            "63": 1,
+            "28": 1,
+            "84": 1,
+            "1127": 1,
+            "12460": 1,
+            "1918": 1,
+            "3654": 1
+        }
+    },
+    {
+        "task_id": "a00979ec-95d3-412e-873c-8c01322432df_weather_1_workflow.json",
+        "queries": 10584,
+        "sessions": 263,
+        "query_per_session": 40.243346007604565,
+        "frequency": {
+            "14": 9,
+            "7": 245,
+            "21": 2,
+            "56": 1,
+            "714": 1,
+            "1442": 1,
+            "315": 1,
+            "2422": 1,
+            "1666": 1,
+            "2086": 1
+        }
+    },
+    {
+        "task_id": "a00979ec-95d3-412e-873c-8c01322432df_weather_3_workflow.json",
+        "queries": 22701,
+        "sessions": 304,
+        "query_per_session": 74.67434210526316,
+        "frequency": {
+            "14": 7,
+            "7": 288,
+            "98": 1,
+            "21": 3,
+            "77": 1,
+            "35": 1,
+            "28": 1,
+            "18641": 1,
+            "1645": 1
+        }
+    },
+    {
+        "task_id": "a00979ec-95d3-412e-873c-8c01322432df_flights_3_workflow.json",
+        "queries": 6170,
+        "sessions": 947,
+        "query_per_session": 6.515311510031679,
+        "frequency": {
+            "5": 899,
+            "10": 19,
+            "20": 5,
+            "95": 1,
+            "30": 1,
+            "15": 12,
+            "150": 1,
+            "145": 1,
+            "40": 1,
+            "220": 2,
+            "65": 2,
+            "60": 1,
+            "25": 1,
+            "90": 1
+        }
+    },
+    {
+        "task_id": "a00979ec-95d3-412e-873c-8c01322432df_weather_0_workflow.json",
+        "queries": 1085,
+        "sessions": 71,
+        "query_per_session": 15.28169014084507,
+        "frequency": {
+            "28": 1,
+            "14": 5,
+            "7": 63,
+            "21": 1,
+            "525": 1
+        }
+    },
+    {
+        "task_id": "a00979ec-95d3-412e-873c-8c01322432df_flights_2_workflow.json",
+        "queries": 4385,
+        "sessions": 244,
+        "query_per_session": 17.971311475409838,
+        "frequency": {
+            "5": 235,
+            "10": 5,
+            "15": 1,
+            "55": 1,
+            "395": 1,
+            "2695": 1
+        }
+    },
+    {
+        "task_id": "a00979ec-95d3-412e-873c-8c01322432df_flights_0_workflow.json",
+        "queries": 865,
+        "sessions": 6,
+        "query_per_session": 144.16666666666666,
+        "frequency": {
+            "5": 1,
+            "40": 1,
+            "415": 1,
+            "10": 1,
+            "60": 1,
+            "335": 1
+        }
+    },
+    {
+        "task_id": "a00979ec-95d3-412e-873c-8c01322432df_flights_1_workflow.json",
+        "queries": 485,
+        "sessions": 62,
+        "query_per_session": 7.82258064516129,
+        "frequency": {
+            "10": 19,
+            "5": 37,
+            "15": 5,
+            "35": 1
+        }
+    },
+    {
+        "task_id": "a00979ec-95d3-412e-873c-8c01322432df_flights_4_workflow.json",
+        "queries": 20700,
+        "sessions": 2211,
+        "query_per_session": 9.362279511533243,
+        "frequency": {
+            "5": 2152,
+            "15": 10,
+            "20": 2,
+            "10": 20,
+            "55": 2,
+            "60": 3,
+            "30": 3,
+            "25": 2,
+            "65": 2,
+            "145": 1,
+            "205": 1,
+            "35": 1,
+            "75": 1,
+            "125": 1,
+            "45": 1,
+            "85": 2,
+            "95": 1,
+            "40": 2,
+            "3595": 1,
+            "2910": 1,
+            "710": 1,
+            "800": 1
+        }
+    },
+    {
+        "task_id": "a00979ec-95d3-412e-873c-8c01322432df_weather_2_workflow.json",
+        "queries": 8666,
+        "sessions": 1091,
+        "query_per_session": 7.943171402383134,
+        "frequency": {
+            "14": 19,
+            "7": 1046,
+            "21": 16,
+            "42": 2,
+            "133": 1,
+            "56": 1,
+            "168": 1,
+            "28": 1,
+            "84": 1,
+            "70": 2,
+            "49": 1
+        }
+    },
+    {
+        "task_id": "3e47ed06-11e9-412f-87f2-282a9d34679c_weather_2_workflow.json",
+        "queries": 7378,
+        "sessions": 221,
+        "query_per_session": 33.38461538461539,
+        "frequency": {
+            "14": 5,
+            "406": 1,
+            "21": 1,
+            "7": 211,
+            "35": 1,
+            "56": 1,
+            "5313": 1
+        }
+    },
+    {
+        "task_id": "3e47ed06-11e9-412f-87f2-282a9d34679c_weather_4_workflow.json",
+        "queries": 10129,
+        "sessions": 326,
+        "query_per_session": 31.070552147239265,
+        "frequency": {
+            "14": 9,
+            "21": 7,
+            "7": 301,
+            "28": 1,
+            "63": 1,
+            "3171": 1,
+            "392": 1,
+            "238": 1,
+            "2429": 1,
+            "805": 1,
+            "315": 1,
+            "308": 1
+        }
+    },
+    {
+        "task_id": "3e47ed06-11e9-412f-87f2-282a9d34679c_flights_3_workflow.json",
+        "queries": 8775,
+        "sessions": 44,
+        "query_per_session": 199.4318181818182,
+        "frequency": {
+            "5": 21,
+            "10": 12,
+            "15": 6,
+            "25": 1,
+            "45": 1,
+            "35": 1,
+            "30": 1,
+            "8325": 1
+        }
+    },
+    {
+        "task_id": "3e47ed06-11e9-412f-87f2-282a9d34679c_weather_1_workflow.json",
+        "queries": 5572,
+        "sessions": 443,
+        "query_per_session": 12.577878103837472,
+        "frequency": {
+            "14": 8,
+            "7": 421,
+            "21": 7,
+            "28": 2,
+            "56": 2,
+            "49": 2,
+            "2100": 1
+        }
+    },
+    {
+        "task_id": "3e47ed06-11e9-412f-87f2-282a9d34679c_flights_2_workflow.json",
+        "queries": 6525,
+        "sessions": 97,
+        "query_per_session": 67.26804123711341,
+        "frequency": {
+            "15": 26,
+            "290": 1,
+            "5": 34,
+            "10": 22,
+            "20": 5,
+            "95": 1,
+            "35": 1,
+            "70": 1,
+            "25": 1,
+            "215": 1,
+            "60": 1,
+            "575": 1,
+            "2205": 1,
+            "2075": 1
+        }
+    },
+    {
+        "task_id": "3e47ed06-11e9-412f-87f2-282a9d34679c_flights_0_workflow.json",
+        "queries": 1290,
+        "sessions": 111,
+        "query_per_session": 11.621621621621621,
+        "frequency": {
+            "10": 10,
+            "5": 87,
+            "20": 1,
+            "15": 11,
+            "440": 1,
+            "130": 1
+        }
+    },
+    {
+        "task_id": "3e47ed06-11e9-412f-87f2-282a9d34679c_weather_0_workflow.json",
+        "queries": 3241,
+        "sessions": 124,
+        "query_per_session": 26.137096774193548,
+        "frequency": {
+            "21": 7,
+            "14": 28,
+            "28": 6,
+            "7": 82,
+            "1960": 1
+        }
+    },
+    {
+        "task_id": "3e47ed06-11e9-412f-87f2-282a9d34679c_weather_3_workflow.json",
+        "queries": 14434,
+        "sessions": 387,
+        "query_per_session": 37.29715762273902,
+        "frequency": {
+            "14": 24,
+            "7": 339,
+            "21": 17,
+            "28": 5,
+            "35": 1,
+            "11193": 1
+        }
+    },
+    {
+        "task_id": "3e47ed06-11e9-412f-87f2-282a9d34679c_flights_4_workflow.json",
+        "queries": 6860,
+        "sessions": 426,
+        "query_per_session": 16.103286384976524,
+        "frequency": {
+            "15": 49,
+            "20": 15,
+            "5": 305,
+            "10": 45,
+            "80": 1,
+            "125": 1,
+            "155": 1,
+            "25": 1,
+            "470": 1,
+            "280": 1,
+            "1420": 1,
+            "340": 1,
+            "400": 1,
+            "145": 1,
+            "160": 1,
+            "250": 1
+        }
+    },
+    {
+        "task_id": "3e47ed06-11e9-412f-87f2-282a9d34679c_flights_1_workflow.json",
+        "queries": 1310,
+        "sessions": 103,
+        "query_per_session": 12.718446601941748,
+        "frequency": {
+            "20": 1,
+            "15": 7,
+            "10": 33,
+            "5": 61,
+            "550": 1
+        }
+    },
+    {
+        "task_id": "812ddf08-7783-49fb-ad52-350c8b9d4996_weather_4_workflow.json",
+        "queries": 15477,
+        "sessions": 159,
+        "query_per_session": 97.33962264150944,
+        "frequency": {
+            "14": 3,
+            "7": 148,
+            "105": 1,
+            "2674": 1,
+            "224": 1,
+            "357": 1,
+            "1904": 1,
+            "4298": 1,
+            "1834": 1,
+            "3003": 1
+        }
+    },
+    {
+        "task_id": "812ddf08-7783-49fb-ad52-350c8b9d4996_flights_4_workflow.json",
+        "queries": 25085,
+        "sessions": 1367,
+        "query_per_session": 18.350402340892465,
+        "frequency": {
+            "20": 2,
+            "5": 1348,
+            "10": 4,
+            "25": 2,
+            "15": 3,
+            "2980": 1,
+            "775": 2,
+            "3615": 1,
+            "4550": 1,
+            "3375": 1,
+            "1320": 1,
+            "780": 1
+        }
+    },
+    {
+        "task_id": "812ddf08-7783-49fb-ad52-350c8b9d4996_flights_0_workflow.json",
+        "queries": 1200,
+        "sessions": 24,
+        "query_per_session": 50.0,
+        "frequency": {
+            "10": 6,
+            "5": 10,
+            "30": 2,
+            "15": 3,
+            "180": 1,
+            "70": 1,
+            "735": 1
+        }
+    },
+    {
+        "task_id": "812ddf08-7783-49fb-ad52-350c8b9d4996_weather_3_workflow.json",
+        "queries": 18620,
+        "sessions": 181,
+        "query_per_session": 102.87292817679558,
+        "frequency": {
+            "7": 170,
+            "21": 6,
+            "28": 1,
+            "14": 1,
+            "11102": 1,
+            "5929": 1,
+            "231": 1
+        }
+    },
+    {
+        "task_id": "812ddf08-7783-49fb-ad52-350c8b9d4996_flights_2_workflow.json",
+        "queries": 14265,
+        "sessions": 1199,
+        "query_per_session": 11.89741451209341,
+        "frequency": {
+            "10": 5,
+            "5": 1180,
+            "15": 5,
+            "20": 3,
+            "25": 1,
+            "50": 2,
+            "80": 1,
+            "3985": 1,
+            "3990": 1
+        }
+    },
+    {
+        "task_id": "812ddf08-7783-49fb-ad52-350c8b9d4996_weather_2_workflow.json",
+        "queries": 4956,
+        "sessions": 655,
+        "query_per_session": 7.566412213740458,
+        "frequency": {
+            "7": 642,
+            "14": 6,
+            "28": 1,
+            "21": 1,
+            "49": 2,
+            "91": 1,
+            "56": 1,
+            "84": 1
+        }
+    },
+    {
+        "task_id": "812ddf08-7783-49fb-ad52-350c8b9d4996_weather_0_workflow.json",
+        "queries": 994,
+        "sessions": 45,
+        "query_per_session": 22.08888888888889,
+        "frequency": {
+            "14": 4,
+            "7": 39,
+            "21": 1,
+            "644": 1
+        }
+    },
+    {
+        "task_id": "812ddf08-7783-49fb-ad52-350c8b9d4996_flights_3_workflow.json",
+        "queries": 33370,
+        "sessions": 739,
+        "query_per_session": 45.155615696887686,
+        "frequency": {
+            "25": 4,
+            "5": 621,
+            "50": 3,
+            "10": 64,
+            "20": 7,
+            "215": 2,
+            "15": 21,
+            "55": 1,
+            "320": 1,
+            "35": 1,
+            "160": 1,
+            "30": 1,
+            "580": 1,
+            "65": 1,
+            "165": 1,
+            "1380": 1,
+            "45": 2,
+            "245": 1,
+            "135": 1,
+            "60": 1,
+            "105": 1,
+            "11690": 1,
+            "13375": 1
+        }
+    },
+    {
+        "task_id": "812ddf08-7783-49fb-ad52-350c8b9d4996_flights_1_workflow.json",
+        "queries": 1000,
+        "sessions": 166,
+        "query_per_session": 6.024096385542169,
+        "frequency": {
+            "10": 10,
+            "5": 148,
+            "15": 6,
+            "20": 1,
+            "50": 1
+        }
+    },
+    {
+        "task_id": "812ddf08-7783-49fb-ad52-350c8b9d4996_weather_1_workflow.json",
+        "queries": 16100,
+        "sessions": 1891,
+        "query_per_session": 8.514013749338973,
+        "frequency": {
+            "14": 21,
+            "7": 1857,
+            "21": 5,
+            "35": 2,
+            "77": 1,
+            "42": 1,
+            "91": 1,
+            "133": 1,
+            "210": 1,
+            "2079": 1
+        }
+    },
+    {
+        "task_id": "1662e1ff-35e2-4d04-9201-ccbdddf1c3fe_movies_0_workflow.json",
+        "queries": 644,
+        "sessions": 18,
+        "query_per_session": 35.77777777777778,
+        "frequency": {
+            "7": 17,
+            "525": 1
+        }
+    },
+    {
+        "task_id": "1662e1ff-35e2-4d04-9201-ccbdddf1c3fe_weather_3_workflow.json",
+        "queries": 21371,
+        "sessions": 445,
+        "query_per_session": 48.024719101123594,
+        "frequency": {
+            "14": 25,
+            "7": 403,
+            "21": 10,
+            "28": 3,
+            "84": 1,
+            "1015": 1,
+            "8897": 1,
+            "7910": 1
+        }
+    },
+    {
+        "task_id": "1662e1ff-35e2-4d04-9201-ccbdddf1c3fe_movies_2_workflow.json",
+        "queries": 15162,
+        "sessions": 1776,
+        "query_per_session": 8.537162162162161,
+        "frequency": {
+            "14": 61,
+            "21": 39,
+            "7": 1651,
+            "28": 10,
+            "91": 2,
+            "56": 1,
+            "371": 1,
+            "105": 1,
+            "35": 1,
+            "49": 1,
+            "84": 3,
+            "140": 1,
+            "126": 1,
+            "147": 2,
+            "42": 1
+        }
+    },
+    {
+        "task_id": "1662e1ff-35e2-4d04-9201-ccbdddf1c3fe_movies_4_workflow.json",
+        "queries": 11263,
+        "sessions": 346,
+        "query_per_session": 32.552023121387286,
+        "frequency": {
+            "7": 330,
+            "14": 2,
+            "21": 5,
+            "49": 1,
+            "28": 3,
+            "42": 2,
+            "3045": 1,
+            "1400": 1,
+            "4158": 1
+        }
+    },
+    {
+        "task_id": "1662e1ff-35e2-4d04-9201-ccbdddf1c3fe_weather_2_workflow.json",
+        "queries": 5180,
+        "sessions": 636,
+        "query_per_session": 8.144654088050315,
+        "frequency": {
+            "14": 2,
+            "455": 1,
+            "7": 626,
+            "63": 1,
+            "21": 2,
+            "91": 1,
+            "56": 1,
+            "28": 1,
+            "35": 1
+        }
+    },
+    {
+        "task_id": "1662e1ff-35e2-4d04-9201-ccbdddf1c3fe_weather_0_workflow.json",
+        "queries": 1267,
+        "sessions": 55,
+        "query_per_session": 23.036363636363635,
+        "frequency": {
+            "14": 7,
+            "7": 47,
+            "840": 1
+        }
+    },
+    {
+        "task_id": "1662e1ff-35e2-4d04-9201-ccbdddf1c3fe_movies_1_workflow.json",
+        "queries": 679,
+        "sessions": 20,
+        "query_per_session": 33.95,
+        "frequency": {
+            "14": 4,
+            "7": 8,
+            "182": 1,
+            "21": 4,
+            "42": 1,
+            "126": 1,
+            "133": 1
+        }
+    },
+    {
+        "task_id": "1662e1ff-35e2-4d04-9201-ccbdddf1c3fe_movies_3_workflow.json",
+        "queries": 12838,
+        "sessions": 1628,
+        "query_per_session": 7.885749385749386,
+        "frequency": {
+            "7": 1564,
+            "14": 27,
+            "21": 17,
+            "28": 6,
+            "84": 2,
+            "63": 2,
+            "56": 3,
+            "105": 1,
+            "70": 2,
+            "35": 2,
+            "49": 1,
+            "161": 1
+        }
+    },
+    {
+        "task_id": "1662e1ff-35e2-4d04-9201-ccbdddf1c3fe_weather_1_workflow.json",
+        "queries": 4613,
+        "sessions": 591,
+        "query_per_session": 7.805414551607445,
+        "frequency": {
+            "7": 575,
+            "21": 6,
+            "14": 3,
+            "77": 2,
+            "63": 1,
+            "35": 2,
+            "105": 1,
+            "28": 1
+        }
+    },
+    {
+        "task_id": "1662e1ff-35e2-4d04-9201-ccbdddf1c3fe_weather_4_workflow.json",
+        "queries": 35693,
+        "sessions": 616,
+        "query_per_session": 57.94318181818182,
+        "frequency": {
+            "14": 57,
+            "7": 500,
+            "21": 15,
+            "28": 4,
+            "224": 1,
+            "119": 1,
+            "2625": 1,
+            "791": 1,
+            "287": 3,
+            "868": 1,
+            "511": 1,
+            "273": 1,
+            "525": 1,
+            "210": 1,
+            "322": 1,
+            "245": 1,
+            "7105": 1,
+            "343": 1,
+            "350": 2,
+            "756": 2,
+            "581": 1,
+            "133": 2,
+            "252": 1,
+            "728": 1,
+            "1092": 1,
+            "126": 1,
+            "504": 1,
+            "427": 1,
+            "413": 1,
+            "63": 1,
+            "1862": 1,
+            "1638": 1,
+            "203": 1,
+            "651": 1,
+            "294": 1,
+            "532": 1,
+            "1582": 1,
+            "490": 1,
+            "2030": 1
+        }
+    },
+    {
+        "task_id": "0505add0-b02e-4730-8816-c6674a2a9b7b_weather_0_workflow.json",
+        "queries": 1750,
+        "sessions": 78,
+        "query_per_session": 22.435897435897434,
+        "frequency": {
+            "7": 71,
+            "14": 4,
+            "21": 1,
+            "42": 1,
+            "1134": 1
+        }
+    },
+    {
+        "task_id": "0505add0-b02e-4730-8816-c6674a2a9b7b_flights_2_workflow.json",
+        "queries": 5050,
+        "sessions": 39,
+        "query_per_session": 129.48717948717947,
+        "frequency": {
+            "10": 11,
+            "5": 21,
+            "120": 1,
+            "15": 5,
+            "4640": 1
+        }
+    },
+    {
+        "task_id": "0505add0-b02e-4730-8816-c6674a2a9b7b_flights_1_workflow.json",
+        "queries": 855,
+        "sessions": 46,
+        "query_per_session": 18.58695652173913,
+        "frequency": {
+            "35": 1,
+            "10": 4,
+            "5": 28,
+            "15": 9,
+            "360": 1,
+            "20": 1,
+            "65": 1,
+            "60": 1
+        }
+    },
+    {
+        "task_id": "0505add0-b02e-4730-8816-c6674a2a9b7b_flights_0_workflow.json",
+        "queries": 1695,
+        "sessions": 146,
+        "query_per_session": 11.60958904109589,
+        "frequency": {
+            "10": 13,
+            "5": 127,
+            "15": 3,
+            "50": 1,
+            "95": 1,
+            "740": 1
+        }
+    },
+    {
+        "task_id": "0505add0-b02e-4730-8816-c6674a2a9b7b_flights_3_workflow.json",
+        "queries": 5465,
+        "sessions": 158,
+        "query_per_session": 34.58860759493671,
+        "frequency": {
+            "5": 108,
+            "10": 31,
+            "15": 14,
+            "20": 3,
+            "80": 1,
+            "4265": 1
+        }
+    },
+    {
+        "task_id": "0505add0-b02e-4730-8816-c6674a2a9b7b_weather_2_workflow.json",
+        "queries": 3766,
+        "sessions": 414,
+        "query_per_session": 9.096618357487923,
+        "frequency": {
+            "14": 12,
+            "7": 376,
+            "21": 17,
+            "28": 7,
+            "378": 1,
+            "35": 1
+        }
+    },
+    {
+        "task_id": "0505add0-b02e-4730-8816-c6674a2a9b7b_weather_3_workflow.json",
+        "queries": 14623,
+        "sessions": 277,
+        "query_per_session": 52.79061371841155,
+        "frequency": {
+            "14": 1,
+            "399": 1,
+            "21": 4,
+            "28": 1,
+            "7": 269,
+            "12215": 1
+        }
+    },
+    {
+        "task_id": "0505add0-b02e-4730-8816-c6674a2a9b7b_weather_4_workflow.json",
+        "queries": 10360,
+        "sessions": 301,
+        "query_per_session": 34.41860465116279,
+        "frequency": {
+            "7": 274,
+            "21": 8,
+            "28": 2,
+            "14": 10,
+            "84": 1,
+            "56": 1,
+            "63": 1,
+            "3696": 1,
+            "2044": 1,
+            "133": 1,
+            "2002": 1
+        }
+    },
+    {
+        "task_id": "0505add0-b02e-4730-8816-c6674a2a9b7b_flights_4_workflow.json",
+        "queries": 11585,
+        "sessions": 539,
+        "query_per_session": 21.493506493506494,
+        "frequency": {
+            "10": 13,
+            "5": 510,
+            "15": 7,
+            "460": 1,
+            "55": 1,
+            "20": 3,
+            "210": 1,
+            "4610": 1,
+            "3110": 1,
+            "295": 1
+        }
+    },
+    {
+        "task_id": "0505add0-b02e-4730-8816-c6674a2a9b7b_weather_1_workflow.json",
+        "queries": 10535,
+        "sessions": 129,
+        "query_per_session": 81.66666666666667,
+        "frequency": {
+            "14": 10,
+            "7": 93,
+            "21": 15,
+            "112": 1,
+            "28": 5,
+            "161": 1,
+            "1197": 1,
+            "2226": 1,
+            "1862": 1,
+            "3731": 1
+        }
+    },
+    {
+        "task_id": "566e6ae1-bd9d-427d-933f-7ad1beab7c58_weather_1_workflow.json",
+        "queries": 4613,
+        "sessions": 510,
+        "query_per_session": 9.045098039215686,
+        "frequency": {
+            "14": 9,
+            "7": 481,
+            "112": 1,
+            "70": 1,
+            "21": 8,
+            "77": 2,
+            "140": 1,
+            "147": 1,
+            "98": 1,
+            "28": 2,
+            "105": 1,
+            "35": 2
+        }
+    },
+    {
+        "task_id": "566e6ae1-bd9d-427d-933f-7ad1beab7c58_weather_2_workflow.json",
+        "queries": 3857,
+        "sessions": 118,
+        "query_per_session": 32.686440677966104,
+        "frequency": {
+            "14": 1,
+            "7": 108,
+            "77": 1,
+            "91": 1,
+            "35": 1,
+            "483": 1,
+            "791": 1,
+            "273": 1,
+            "371": 1,
+            "497": 1,
+            "469": 1
+        }
+    },
+    {
+        "task_id": "566e6ae1-bd9d-427d-933f-7ad1beab7c58_weather_0_workflow.json",
+        "queries": 1281,
+        "sessions": 24,
+        "query_per_session": 53.375,
+        "frequency": {
+            "7": 20,
+            "14": 2,
+            "21": 1,
+            "1092": 1
+        }
+    },
+    {
+        "task_id": "566e6ae1-bd9d-427d-933f-7ad1beab7c58_movies_0_workflow.json",
+        "queries": 511,
+        "sessions": 18,
+        "query_per_session": 28.38888888888889,
+        "frequency": {
+            "7": 17,
+            "392": 1
+        }
+    },
+    {
+        "task_id": "566e6ae1-bd9d-427d-933f-7ad1beab7c58_movies_2_workflow.json",
+        "queries": 4473,
+        "sessions": 565,
+        "query_per_session": 7.916814159292035,
+        "frequency": {
+            "7": 555,
+            "147": 1,
+            "14": 3,
+            "70": 1,
+            "77": 1,
+            "21": 3,
+            "189": 1
+        }
+    },
+    {
+        "task_id": "566e6ae1-bd9d-427d-933f-7ad1beab7c58_movies_3_workflow.json",
+        "queries": 4053,
+        "sessions": 147,
+        "query_per_session": 27.571428571428573,
+        "frequency": {
+            "7": 134,
+            "56": 2,
+            "42": 1,
+            "14": 3,
+            "112": 2,
+            "21": 1,
+            "35": 1,
+            "252": 1,
+            "357": 1,
+            "2030": 1
+        }
+    },
+    {
+        "task_id": "566e6ae1-bd9d-427d-933f-7ad1beab7c58_movies_4_workflow.json",
+        "queries": 5404,
+        "sessions": 30,
+        "query_per_session": 180.13333333333333,
+        "frequency": {
+            "7": 15,
+            "14": 7,
+            "140": 1,
+            "63": 1,
+            "28": 1,
+            "1127": 1,
+            "847": 1,
+            "1141": 1,
+            "980": 1,
+            "875": 1
+        }
+    },
+    {
+        "task_id": "566e6ae1-bd9d-427d-933f-7ad1beab7c58_movies_1_workflow.json",
+        "queries": 287,
+        "sessions": 8,
+        "query_per_session": 35.875,
+        "frequency": {
+            "7": 4,
+            "42": 1,
+            "175": 1,
+            "28": 1,
+            "14": 1
+        }
+    },
+    {
+        "task_id": "566e6ae1-bd9d-427d-933f-7ad1beab7c58_weather_3_workflow.json",
+        "queries": 6069,
+        "sessions": 56,
+        "query_per_session": 108.375,
+        "frequency": {
+            "7": 34,
+            "126": 1,
+            "98": 1,
+            "14": 9,
+            "21": 4,
+            "133": 2,
+            "77": 1,
+            "287": 1,
+            "63": 1,
+            "1778": 1,
+            "2926": 1
+        }
+    },
+    {
+        "task_id": "566e6ae1-bd9d-427d-933f-7ad1beab7c58_weather_4_workflow.json",
+        "queries": 4326,
+        "sessions": 15,
+        "query_per_session": 288.4,
+        "frequency": {
+            "7": 12,
+            "14": 1,
+            "56": 1,
+            "4172": 1
+        }
+    },
+    {
+        "task_id": "ee50c16b-e53e-4ffe-968a-736c07437218_movies_1_workflow.json",
+        "queries": 1960,
+        "sessions": 91,
+        "query_per_session": 21.53846153846154,
+        "frequency": {
+            "7": 65,
+            "280": 1,
+            "14": 11,
+            "182": 1,
+            "21": 7,
+            "119": 1,
+            "91": 1,
+            "63": 1,
+            "56": 1,
+            "112": 1,
+            "301": 1
+        }
+    },
+    {
+        "task_id": "ee50c16b-e53e-4ffe-968a-736c07437218_weather_2_workflow.json",
+        "queries": 11725,
+        "sessions": 30,
+        "query_per_session": 390.8333333333333,
+        "frequency": {
+            "14": 15,
+            "7": 8,
+            "21": 4,
+            "2114": 1,
+            "511": 1,
+            "8750": 1
+        }
+    },
+    {
+        "task_id": "ee50c16b-e53e-4ffe-968a-736c07437218_movies_0_workflow.json",
+        "queries": 427,
+        "sessions": 7,
+        "query_per_session": 61.0,
+        "frequency": {
+            "14": 1,
+            "7": 5,
+            "378": 1
+        }
+    },
+    {
+        "task_id": "ee50c16b-e53e-4ffe-968a-736c07437218_movies_2_workflow.json",
+        "queries": 3948,
+        "sessions": 417,
+        "query_per_session": 9.467625899280575,
+        "frequency": {
+            "14": 19,
+            "7": 377,
+            "21": 12,
+            "28": 4,
+            "98": 2,
+            "217": 1,
+            "105": 1,
+            "161": 1
+        }
+    },
+    {
+        "task_id": "ee50c16b-e53e-4ffe-968a-736c07437218_weather_4_workflow.json",
+        "queries": 11599,
+        "sessions": 152,
+        "query_per_session": 76.3092105263158,
+        "frequency": {
+            "14": 11,
+            "7": 133,
+            "21": 1,
+            "154": 1,
+            "84": 1,
+            "6888": 1,
+            "126": 1,
+            "553": 1,
+            "1533": 1,
+            "1155": 1
+        }
+    },
+    {
+        "task_id": "ee50c16b-e53e-4ffe-968a-736c07437218_movies_3_workflow.json",
+        "queries": 9310,
+        "sessions": 210,
+        "query_per_session": 44.333333333333336,
+        "frequency": {
+            "7": 203,
+            "14": 5,
+            "119": 1,
+            "7700": 1
+        }
+    },
+    {
+        "task_id": "ee50c16b-e53e-4ffe-968a-736c07437218_weather_0_workflow.json",
+        "queries": 3122,
+        "sessions": 95,
+        "query_per_session": 32.863157894736844,
+        "frequency": {
+            "7": 71,
+            "28": 4,
+            "14": 9,
+            "21": 8,
+            "105": 1,
+            "861": 1,
+            "1253": 1
+        }
+    },
+    {
+        "task_id": "ee50c16b-e53e-4ffe-968a-736c07437218_weather_1_workflow.json",
+        "queries": 1778,
+        "sessions": 37,
+        "query_per_session": 48.054054054054056,
+        "frequency": {
+            "7": 15,
+            "14": 11,
+            "21": 5,
+            "28": 1,
+            "364": 1,
+            "539": 1,
+            "70": 1,
+            "252": 1,
+            "161": 1
+        }
+    },
+    {
+        "task_id": "ee50c16b-e53e-4ffe-968a-736c07437218_movies_4_workflow.json",
+        "queries": 10479,
+        "sessions": 702,
+        "query_per_session": 14.927350427350428,
+        "frequency": {
+            "7": 684,
+            "14": 10,
+            "21": 1,
+            "308": 1,
+            "56": 1,
+            "84": 1,
+            "28": 1,
+            "2604": 1,
+            "2226": 1,
+            "224": 1
+        }
+    },
+    {
+        "task_id": "ee50c16b-e53e-4ffe-968a-736c07437218_weather_3_workflow.json",
+        "queries": 23954,
+        "sessions": 242,
+        "query_per_session": 98.98347107438016,
+        "frequency": {
+            "14": 12,
+            "7": 218,
+            "28": 2,
+            "21": 6,
+            "70": 1,
+            "1218": 1,
+            "14882": 1,
+            "5908": 1
+        }
+    },
+    {
+        "task_id": "332880f2-b9d3-4182-8a02-0d1c102319a3_flights_4_workflow.json",
+        "queries": 10625,
+        "sessions": 281,
+        "query_per_session": 37.811387900355875,
+        "frequency": {
+            "10": 2,
+            "5": 270,
+            "45": 1,
+            "30": 1,
+            "4000": 1,
+            "105": 1,
+            "890": 1,
+            "170": 1,
+            "1890": 1,
+            "205": 1,
+            "1920": 1
+        }
+    },
+    {
+        "task_id": "332880f2-b9d3-4182-8a02-0d1c102319a3_flights_2_workflow.json",
+        "queries": 3210,
+        "sessions": 15,
+        "query_per_session": 214.0,
+        "frequency": {
+            "5": 10,
+            "10": 3,
+            "140": 1,
+            "2990": 1
+        }
+    },
+    {
+        "task_id": "332880f2-b9d3-4182-8a02-0d1c102319a3_movies_4_workflow.json",
+        "queries": 26411,
+        "sessions": 326,
+        "query_per_session": 81.01533742331289,
+        "frequency": {
+            "35": 3,
+            "7": 317,
+            "14": 2,
+            "28": 2,
+            "12523": 1,
+            "11480": 1
+        }
+    },
+    {
+        "task_id": "332880f2-b9d3-4182-8a02-0d1c102319a3_flights_1_workflow.json",
+        "queries": 275,
+        "sessions": 41,
+        "query_per_session": 6.7073170731707314,
+        "frequency": {
+            "5": 34,
+            "10": 2,
+            "20": 2,
+            "15": 3
+        }
+    },
+    {
+        "task_id": "332880f2-b9d3-4182-8a02-0d1c102319a3_movies_1_workflow.json",
+        "queries": 749,
+        "sessions": 27,
+        "query_per_session": 27.74074074074074,
+        "frequency": {
+            "7": 16,
+            "98": 1,
+            "294": 1,
+            "28": 4,
+            "21": 2,
+            "14": 2,
+            "63": 1
+        }
+    },
+    {
+        "task_id": "332880f2-b9d3-4182-8a02-0d1c102319a3_movies_2_workflow.json",
+        "queries": 6356,
+        "sessions": 589,
+        "query_per_session": 10.791171477079796,
+        "frequency": {
+            "14": 23,
+            "28": 6,
+            "7": 543,
+            "21": 9,
+            "42": 3,
+            "322": 1,
+            "448": 1,
+            "462": 1,
+            "35": 1,
+            "483": 1
+        }
+    },
+    {
+        "task_id": "332880f2-b9d3-4182-8a02-0d1c102319a3_flights_0_workflow.json",
+        "queries": 220,
+        "sessions": 9,
+        "query_per_session": 24.444444444444443,
+        "frequency": {
+            "5": 8,
+            "180": 1
+        }
+    },
+    {
+        "task_id": "332880f2-b9d3-4182-8a02-0d1c102319a3_movies_3_workflow.json",
+        "queries": 11361,
+        "sessions": 70,
+        "query_per_session": 162.3,
+        "frequency": {
+            "14": 9,
+            "7": 56,
+            "42": 1,
+            "154": 1,
+            "189": 1,
+            "329": 1,
+            "10129": 1
+        }
+    },
+    {
+        "task_id": "332880f2-b9d3-4182-8a02-0d1c102319a3_movies_0_workflow.json",
+        "queries": 1169,
+        "sessions": 32,
+        "query_per_session": 36.53125,
+        "frequency": {
+            "14": 2,
+            "7": 29,
+            "938": 1
+        }
+    },
+    {
+        "task_id": "332880f2-b9d3-4182-8a02-0d1c102319a3_flights_3_workflow.json",
+        "queries": 7850,
+        "sessions": 1387,
+        "query_per_session": 5.659697188175919,
+        "frequency": {
+            "10": 4,
+            "5": 1362,
+            "25": 3,
+            "15": 1,
+            "35": 2,
+            "100": 2,
+            "90": 1,
+            "75": 3,
+            "55": 2,
+            "60": 1,
+            "20": 4,
+            "30": 1,
+            "45": 1
+        }
+    },
+    {
+        "task_id": "8862a0ca-295b-42b6-acb6-840a53128b62_weather_3_workflow.json",
+        "queries": 10766,
+        "sessions": 54,
+        "query_per_session": 199.37037037037038,
+        "frequency": {
+            "7": 33,
+            "14": 9,
+            "21": 4,
+            "70": 1,
+            "308": 1,
+            "28": 2,
+            "91": 1,
+            "133": 1,
+            "4963": 1,
+            "4704": 1
+        }
+    },
+    {
+        "task_id": "8862a0ca-295b-42b6-acb6-840a53128b62_movies_2_workflow.json",
+        "queries": 2030,
+        "sessions": 260,
+        "query_per_session": 7.8076923076923075,
+        "frequency": {
+            "7": 249,
+            "21": 4,
+            "14": 4,
+            "91": 1,
+            "28": 2
+        }
+    },
+    {
+        "task_id": "8862a0ca-295b-42b6-acb6-840a53128b62_weather_2_workflow.json",
+        "queries": 2471,
+        "sessions": 206,
+        "query_per_session": 11.995145631067961,
+        "frequency": {
+            "14": 3,
+            "7": 199,
+            "91": 1,
+            "70": 1,
+            "42": 1,
+            "833": 1
+        }
+    },
+    {
+        "task_id": "8862a0ca-295b-42b6-acb6-840a53128b62_movies_4_workflow.json",
+        "queries": 9562,
+        "sessions": 457,
+        "query_per_session": 20.923413566739605,
+        "frequency": {
+            "14": 18,
+            "7": 413,
+            "35": 1,
+            "28": 3,
+            "21": 8,
+            "63": 1,
+            "203": 1,
+            "56": 1,
+            "147": 1,
+            "105": 1,
+            "224": 1,
+            "308": 1,
+            "2044": 1,
+            "714": 1,
+            "490": 1,
+            "525": 1,
+            "70": 1,
+            "511": 1,
+            "672": 1
+        }
+    },
+    {
+        "task_id": "8862a0ca-295b-42b6-acb6-840a53128b62_weather_1_workflow.json",
+        "queries": 4746,
+        "sessions": 601,
+        "query_per_session": 7.896838602329451,
+        "frequency": {
+            "14": 20,
+            "7": 568,
+            "28": 2,
+            "35": 2,
+            "21": 8,
+            "196": 1
+        }
+    },
+    {
+        "task_id": "8862a0ca-295b-42b6-acb6-840a53128b62_movies_3_workflow.json",
+        "queries": 5495,
+        "sessions": 703,
+        "query_per_session": 7.816500711237554,
+        "frequency": {
+            "14": 11,
+            "7": 680,
+            "21": 3,
+            "28": 2,
+            "112": 1,
+            "42": 2,
+            "70": 1,
+            "84": 1,
+            "77": 1,
+            "35": 1
+        }
+    },
+    {
+        "task_id": "8862a0ca-295b-42b6-acb6-840a53128b62_movies_1_workflow.json",
+        "queries": 301,
+        "sessions": 18,
+        "query_per_session": 16.72222222222222,
+        "frequency": {
+            "14": 1,
+            "7": 15,
+            "63": 1,
+            "119": 1
+        }
+    },
+    {
+        "task_id": "8862a0ca-295b-42b6-acb6-840a53128b62_weather_4_workflow.json",
+        "queries": 9387,
+        "sessions": 317,
+        "query_per_session": 29.61198738170347,
+        "frequency": {
+            "14": 11,
+            "7": 295,
+            "105": 1,
+            "42": 1,
+            "392": 1,
+            "322": 1,
+            "343": 1,
+            "301": 1,
+            "182": 1,
+            "217": 1,
+            "3409": 1,
+            "336": 1,
+            "1519": 1
+        }
+    },
+    {
+        "task_id": "8862a0ca-295b-42b6-acb6-840a53128b62_weather_0_workflow.json",
+        "queries": 1022,
+        "sessions": 38,
+        "query_per_session": 26.894736842105264,
+        "frequency": {
+            "14": 2,
+            "7": 35,
+            "749": 1
+        }
+    },
+    {
+        "task_id": "8862a0ca-295b-42b6-acb6-840a53128b62_movies_0_workflow.json",
+        "queries": 931,
+        "sessions": 39,
+        "query_per_session": 23.871794871794872,
+        "frequency": {
+            "14": 6,
+            "7": 32,
+            "623": 1
+        }
+    },
+    {
+        "task_id": "65f5d65a-c862-49e4-affa-3efe67821385_movies_2_workflow.json",
+        "queries": 5782,
+        "sessions": 483,
+        "query_per_session": 11.971014492753623,
+        "frequency": {
+            "14": 5,
+            "7": 468,
+            "21": 3,
+            "28": 5,
+            "266": 1,
+            "1967": 1
+        }
+    },
+    {
+        "task_id": "65f5d65a-c862-49e4-affa-3efe67821385_weather_2_workflow.json",
+        "queries": 8421,
+        "sessions": 649,
+        "query_per_session": 12.975346687211093,
+        "frequency": {
+            "14": 20,
+            "7": 570,
+            "21": 35,
+            "126": 1,
+            "378": 1,
+            "84": 2,
+            "1148": 1,
+            "448": 1,
+            "252": 1,
+            "28": 11,
+            "56": 2,
+            "49": 2,
+            "343": 1,
+            "35": 1
+        }
+    },
+    {
+        "task_id": "65f5d65a-c862-49e4-affa-3efe67821385_movies_4_workflow.json",
+        "queries": 16128,
+        "sessions": 361,
+        "query_per_session": 44.67590027700831,
+        "frequency": {
+            "14": 4,
+            "7": 337,
+            "112": 1,
+            "161": 1,
+            "21": 1,
+            "98": 2,
+            "2170": 1,
+            "105": 1,
+            "868": 1,
+            "140": 1,
+            "1750": 1,
+            "91": 1,
+            "644": 1,
+            "154": 1,
+            "553": 1,
+            "602": 1,
+            "175": 1,
+            "448": 1,
+            "84": 1,
+            "2415": 1,
+            "3024": 1
+        }
+    },
+    {
+        "task_id": "65f5d65a-c862-49e4-affa-3efe67821385_weather_3_workflow.json",
+        "queries": 8001,
+        "sessions": 54,
+        "query_per_session": 148.16666666666666,
+        "frequency": {
+            "14": 3,
+            "7": 46,
+            "21": 1,
+            "133": 1,
+            "819": 1,
+            "1435": 1,
+            "5229": 1
+        }
+    },
+    {
+        "task_id": "65f5d65a-c862-49e4-affa-3efe67821385_weather_1_workflow.json",
+        "queries": 4732,
+        "sessions": 23,
+        "query_per_session": 205.7391304347826,
+        "frequency": {
+            "42": 1,
+            "7": 9,
+            "14": 4,
+            "21": 6,
+            "105": 1,
+            "1414": 1,
+            "2926": 1
+        }
+    },
+    {
+        "task_id": "65f5d65a-c862-49e4-affa-3efe67821385_weather_4_workflow.json",
+        "queries": 8932,
+        "sessions": 233,
+        "query_per_session": 38.33476394849785,
+        "frequency": {
+            "14": 1,
+            "7": 208,
+            "35": 1,
+            "70": 1,
+            "182": 1,
+            "28": 2,
+            "21": 3,
+            "63": 1,
+            "1071": 1,
+            "112": 2,
+            "1225": 1,
+            "707": 1,
+            "623": 1,
+            "56": 1,
+            "350": 1,
+            "119": 1,
+            "364": 1,
+            "245": 1,
+            "742": 1,
+            "210": 1,
+            "644": 1,
+            "413": 1
+        }
+    },
+    {
+        "task_id": "65f5d65a-c862-49e4-affa-3efe67821385_movies_1_workflow.json",
+        "queries": 658,
+        "sessions": 29,
+        "query_per_session": 22.689655172413794,
+        "frequency": {
+            "14": 5,
+            "7": 10,
+            "21": 7,
+            "112": 1,
+            "28": 4,
+            "70": 1,
+            "77": 1
+        }
+    },
+    {
+        "task_id": "65f5d65a-c862-49e4-affa-3efe67821385_movies_3_workflow.json",
+        "queries": 6657,
+        "sessions": 863,
+        "query_per_session": 7.713789107763615,
+        "frequency": {
+            "14": 8,
+            "7": 844,
+            "21": 2,
+            "49": 2,
+            "105": 1,
+            "126": 1,
+            "70": 2,
+            "35": 1,
+            "28": 1,
+            "63": 1
+        }
+    },
+    {
+        "task_id": "65f5d65a-c862-49e4-affa-3efe67821385_weather_0_workflow.json",
+        "queries": 868,
+        "sessions": 28,
+        "query_per_session": 31.0,
+        "frequency": {
+            "14": 2,
+            "7": 25,
+            "665": 1
+        }
+    },
+    {
+        "task_id": "65f5d65a-c862-49e4-affa-3efe67821385_movies_0_workflow.json",
+        "queries": 231,
+        "sessions": 6,
+        "query_per_session": 38.5,
+        "frequency": {
+            "14": 1,
+            "7": 4,
+            "189": 1
+        }
+    },
+    {
+        "task_id": "0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_weather_0_workflow.json",
+        "queries": 5901,
+        "sessions": 56,
+        "query_per_session": 105.375,
+        "frequency": {
+            "14": 11,
+            "7": 35,
+            "21": 5,
+            "119": 1,
+            "28": 1,
+            "1988": 1,
+            "2114": 1,
+            "1148": 1
+        }
+    },
+    {
+        "task_id": "0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_weather_3_workflow.json",
+        "queries": 17773,
+        "sessions": 455,
+        "query_per_session": 39.06153846153846,
+        "frequency": {
+            "14": 66,
+            "7": 352,
+            "28": 4,
+            "21": 27,
+            "140": 1,
+            "308": 1,
+            "119": 1,
+            "427": 1,
+            "11053": 1,
+            "1659": 1
+        }
+    },
+    {
+        "task_id": "0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_flights_2_workflow.json",
+        "queries": 12070,
+        "sessions": 43,
+        "query_per_session": 280.69767441860466,
+        "frequency": {
+            "5": 30,
+            "20": 2,
+            "10": 5,
+            "60": 1,
+            "40": 1,
+            "55": 1,
+            "140": 1,
+            "8725": 1,
+            "2810": 1
+        }
+    },
+    {
+        "task_id": "0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_flights_3_workflow.json",
+        "queries": 2030,
+        "sessions": 192,
+        "query_per_session": 10.572916666666666,
+        "frequency": {
+            "10": 26,
+            "15": 21,
+            "5": 130,
+            "20": 6,
+            "40": 2,
+            "25": 2,
+            "295": 1,
+            "55": 1,
+            "60": 2,
+            "85": 1
+        }
+    },
+    {
+        "task_id": "0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_weather_1_workflow.json",
+        "queries": 8722,
+        "sessions": 670,
+        "query_per_session": 13.017910447761194,
+        "frequency": {
+            "7": 652,
+            "14": 5,
+            "21": 4,
+            "28": 2,
+            "35": 1,
+            "42": 2,
+            "49": 1,
+            "84": 1,
+            "2954": 1,
+            "742": 1
+        }
+    },
+    {
+        "task_id": "0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_flights_1_workflow.json",
+        "queries": 1785,
+        "sessions": 167,
+        "query_per_session": 10.688622754491018,
+        "frequency": {
+            "10": 24,
+            "15": 7,
+            "20": 1,
+            "5": 129,
+            "105": 1,
+            "65": 1,
+            "30": 1,
+            "160": 1,
+            "45": 1,
+            "370": 1
+        }
+    },
+    {
+        "task_id": "0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_weather_4_workflow.json",
+        "queries": 16436,
+        "sessions": 686,
+        "query_per_session": 23.959183673469386,
+        "frequency": {
+            "7": 496,
+            "14": 98,
+            "21": 63,
+            "28": 14,
+            "42": 1,
+            "280": 1,
+            "189": 1,
+            "777": 1,
+            "84": 1,
+            "35": 1,
+            "77": 1,
+            "539": 1,
+            "49": 1,
+            "2828": 1,
+            "1820": 1,
+            "847": 1,
+            "406": 1,
+            "518": 1,
+            "1386": 1
+        }
+    },
+    {
+        "task_id": "0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_weather_2_workflow.json",
+        "queries": 7105,
+        "sessions": 9,
+        "query_per_session": 789.4444444444445,
+        "frequency": {
+            "21": 2,
+            "14": 2,
+            "7": 3,
+            "28": 1,
+            "6986": 1
+        }
+    },
+    {
+        "task_id": "0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_flights_4_workflow.json",
+        "queries": 23760,
+        "sessions": 723,
+        "query_per_session": 32.863070539419084,
+        "frequency": {
+            "10": 22,
+            "5": 654,
+            "40": 2,
+            "15": 22,
+            "65": 1,
+            "360": 1,
+            "25": 1,
+            "165": 1,
+            "20": 4,
+            "100": 1,
+            "45": 2,
+            "105": 1,
+            "195": 1,
+            "50": 2,
+            "140": 1,
+            "160": 1,
+            "4465": 1,
+            "2440": 1,
+            "8675": 1,
+            "610": 1,
+            "1345": 1,
+            "740": 1
+        }
+    },
+    {
+        "task_id": "0a66e5c6-d3cd-4a6d-bbf6-88276feb9376_flights_0_workflow.json",
+        "queries": 1595,
+        "sessions": 84,
+        "query_per_session": 18.988095238095237,
+        "frequency": {
+            "10": 6,
+            "5": 73,
+            "55": 1,
+            "50": 1,
+            "15": 1,
+            "865": 1,
+            "185": 1
+        }
+    },
+    {
+        "task_id": "506b064a-02f4-433b-9021-6f3c2fe0b216_movies_0_workflow.json",
+        "queries": 994,
+        "sessions": 42,
+        "query_per_session": 23.666666666666668,
+        "frequency": {
+            "14": 1,
+            "7": 40,
+            "700": 1
+        }
+    },
+    {
+        "task_id": "506b064a-02f4-433b-9021-6f3c2fe0b216_movies_1_workflow.json",
+        "queries": 2709,
+        "sessions": 99,
+        "query_per_session": 27.363636363636363,
+        "frequency": {
+            "21": 10,
+            "7": 51,
+            "203": 2,
+            "28": 12,
+            "14": 11,
+            "112": 1,
+            "63": 1,
+            "182": 1,
+            "133": 2,
+            "77": 3,
+            "91": 2,
+            "84": 1,
+            "70": 1,
+            "56": 1
+        }
+    },
+    {
+        "task_id": "506b064a-02f4-433b-9021-6f3c2fe0b216_movies_4_workflow.json",
+        "queries": 16380,
+        "sessions": 214,
+        "query_per_session": 76.54205607476635,
+        "frequency": {
+            "7": 201,
+            "14": 3,
+            "28": 3,
+            "49": 2,
+            "21": 2,
+            "56": 1,
+            "3493": 1,
+            "11158": 1
+        }
+    },
+    {
+        "task_id": "506b064a-02f4-433b-9021-6f3c2fe0b216_flights_4_workflow.json",
+        "queries": 12745,
+        "sessions": 747,
+        "query_per_session": 17.0615796519411,
+        "frequency": {
+            "30": 2,
+            "10": 43,
+            "5": 673,
+            "75": 1,
+            "15": 11,
+            "350": 1,
+            "20": 10,
+            "110": 1,
+            "390": 1,
+            "420": 1,
+            "35": 1,
+            "675": 1,
+            "6470": 1
+        }
+    },
+    {
+        "task_id": "506b064a-02f4-433b-9021-6f3c2fe0b216_flights_0_workflow.json",
+        "queries": 685,
+        "sessions": 28,
+        "query_per_session": 24.464285714285715,
+        "frequency": {
+            "10": 1,
+            "5": 23,
+            "45": 1,
+            "65": 1,
+            "15": 1,
+            "435": 1
+        }
+    },
+    {
+        "task_id": "506b064a-02f4-433b-9021-6f3c2fe0b216_movies_3_workflow.json",
+        "queries": 21917,
+        "sessions": 1299,
+        "query_per_session": 16.872209391839878,
+        "frequency": {
+            "7": 1204,
+            "35": 2,
+            "14": 40,
+            "21": 21,
+            "63": 3,
+            "196": 1,
+            "126": 2,
+            "84": 1,
+            "28": 15,
+            "91": 1,
+            "266": 1,
+            "42": 1,
+            "98": 1,
+            "56": 2,
+            "140": 1,
+            "112": 1,
+            "2198": 1,
+            "8218": 1
+        }
+    },
+    {
+        "task_id": "506b064a-02f4-433b-9021-6f3c2fe0b216_movies_2_workflow.json",
+        "queries": 13160,
+        "sessions": 10,
+        "query_per_session": 1316.0,
+        "frequency": {
+            "7": 3,
+            "28": 1,
+            "14": 2,
+            "21": 1,
+            "70": 1,
+            "147": 1,
+            "12845": 1
+        }
+    },
+    {
+        "task_id": "506b064a-02f4-433b-9021-6f3c2fe0b216_flights_1_workflow.json",
+        "queries": 840,
+        "sessions": 70,
+        "query_per_session": 12.0,
+        "frequency": {
+            "10": 19,
+            "5": 31,
+            "15": 8,
+            "20": 9,
+            "65": 1,
+            "105": 1,
+            "25": 1
+        }
+    },
+    {
+        "task_id": "506b064a-02f4-433b-9021-6f3c2fe0b216_flights_3_workflow.json",
+        "queries": 14780,
+        "sessions": 321,
+        "query_per_session": 46.04361370716511,
+        "frequency": {
+            "10": 7,
+            "5": 304,
+            "15": 1,
+            "25": 2,
+            "35": 2,
+            "20": 1,
+            "30": 1,
+            "80": 1,
+            "3125": 1,
+            "9800": 1
+        }
+    },
+    {
+        "task_id": "506b064a-02f4-433b-9021-6f3c2fe0b216_flights_2_workflow.json",
+        "queries": 6300,
+        "sessions": 25,
+        "query_per_session": 252.0,
+        "frequency": {
+            "5": 5,
+            "10": 5,
+            "15": 3,
+            "25": 1,
+            "20": 6,
+            "1555": 1,
+            "235": 1,
+            "1940": 1,
+            "340": 1,
+            "1965": 1
+        }
+    },
+    {
+        "task_id": "01a259b8-856e-48ae-92bd-fade80fa00c6_flights_4_workflow.json",
+        "queries": 7095,
+        "sessions": 303,
+        "query_per_session": 23.415841584158414,
+        "frequency": {
+            "20": 1,
+            "5": 285,
+            "10": 5,
+            "30": 1,
+            "1095": 1,
+            "710": 1,
+            "300": 1,
+            "740": 1,
+            "265": 1,
+            "635": 1,
+            "1080": 1,
+            "100": 1,
+            "255": 1,
+            "260": 1,
+            "130": 1
+        }
+    },
+    {
+        "task_id": "01a259b8-856e-48ae-92bd-fade80fa00c6_weather_1_workflow.json",
+        "queries": 6531,
+        "sessions": 16,
+        "query_per_session": 408.1875,
+        "frequency": {
+            "7": 3,
+            "28": 3,
+            "14": 4,
+            "35": 1,
+            "21": 4,
+            "6251": 1
+        }
+    },
+    {
+        "task_id": "01a259b8-856e-48ae-92bd-fade80fa00c6_weather_2_workflow.json",
+        "queries": 3073,
+        "sessions": 378,
+        "query_per_session": 8.12962962962963,
+        "frequency": {
+            "14": 2,
+            "294": 1,
+            "7": 373,
+            "21": 1,
+            "119": 1
+        }
+    },
+    {
+        "task_id": "01a259b8-856e-48ae-92bd-fade80fa00c6_weather_3_workflow.json",
+        "queries": 12649,
+        "sessions": 125,
+        "query_per_session": 101.192,
+        "frequency": {
+            "7": 113,
+            "14": 3,
+            "21": 4,
+            "35": 1,
+            "63": 1,
+            "4795": 1,
+            "4158": 1,
+            "2681": 1
+        }
+    },
+    {
+        "task_id": "01a259b8-856e-48ae-92bd-fade80fa00c6_weather_0_workflow.json",
+        "queries": 1890,
+        "sessions": 75,
+        "query_per_session": 25.2,
+        "frequency": {
+            "14": 9,
+            "7": 65,
+            "1309": 1
+        }
+    },
+    {
+        "task_id": "01a259b8-856e-48ae-92bd-fade80fa00c6_flights_1_workflow.json",
+        "queries": 3435,
+        "sessions": 230,
+        "query_per_session": 14.934782608695652,
+        "frequency": {
+            "5": 148,
+            "15": 25,
+            "20": 8,
+            "10": 35,
+            "510": 1,
+            "25": 3,
+            "45": 1,
+            "35": 1,
+            "55": 1,
+            "30": 2,
+            "325": 1,
+            "200": 2,
+            "110": 1,
+            "195": 1
+        }
+    },
+    {
+        "task_id": "01a259b8-856e-48ae-92bd-fade80fa00c6_flights_2_workflow.json",
+        "queries": 2070,
+        "sessions": 92,
+        "query_per_session": 22.5,
+        "frequency": {
+            "10": 9,
+            "15": 5,
+            "5": 74,
+            "20": 1,
+            "85": 1,
+            "45": 1,
+            "1385": 1
+        }
+    },
+    {
+        "task_id": "01a259b8-856e-48ae-92bd-fade80fa00c6_flights_3_workflow.json",
+        "queries": 6155,
+        "sessions": 126,
+        "query_per_session": 48.84920634920635,
+        "frequency": {
+            "5": 120,
+            "15": 1,
+            "25": 1,
+            "90": 1,
+            "10": 1,
+            "2290": 1,
+            "3125": 1
+        }
+    },
+    {
+        "task_id": "01a259b8-856e-48ae-92bd-fade80fa00c6_flights_0_workflow.json",
+        "queries": 2500,
+        "sessions": 11,
+        "query_per_session": 227.27272727272728,
+        "frequency": {
+            "15": 1,
+            "50": 1,
+            "10": 3,
+            "330": 1,
+            "70": 1,
+            "90": 1,
+            "55": 1,
+            "25": 1,
+            "1835": 1
+        }
+    },
+    {
+        "task_id": "01a259b8-856e-48ae-92bd-fade80fa00c6_weather_4_workflow.json",
+        "queries": 4487,
+        "sessions": 179,
+        "query_per_session": 25.067039106145252,
+        "frequency": {
+            "7": 169,
+            "21": 4,
+            "14": 3,
+            "1694": 1,
+            "938": 1,
+            "546": 1
+        }
+    },
+    {
+        "task_id": "1d4cdb4f-febf-48f9-b778-8a95e47dd7df_flights_3_workflow.json",
+        "queries": 7000,
+        "sessions": 476,
+        "query_per_session": 14.705882352941176,
+        "frequency": {
+            "5": 434,
+            "40": 1,
+            "75": 1,
+            "120": 1,
+            "30": 1,
+            "110": 1,
+            "100": 1,
+            "20": 6,
+            "65": 1,
+            "90": 1,
+            "35": 1,
+            "15": 7,
+            "10": 17,
+            "25": 1,
+            "175": 1,
+            "3570": 1
+        }
+    },
+    {
+        "task_id": "1d4cdb4f-febf-48f9-b778-8a95e47dd7df_movies_1_workflow.json",
+        "queries": 511,
+        "sessions": 9,
+        "query_per_session": 56.77777777777778,
+        "frequency": {
+            "14": 1,
+            "7": 6,
+            "105": 1,
+            "350": 1
+        }
+    },
+    {
+        "task_id": "1d4cdb4f-febf-48f9-b778-8a95e47dd7df_movies_4_workflow.json",
+        "queries": 6993,
+        "sessions": 26,
+        "query_per_session": 268.96153846153845,
+        "frequency": {
+            "7": 15,
+            "14": 4,
+            "21": 1,
+            "28": 1,
+            "2338": 1,
+            "2681": 1,
+            "1155": 1,
+            "231": 1,
+            "378": 1
+        }
+    },
+    {
+        "task_id": "1d4cdb4f-febf-48f9-b778-8a95e47dd7df_movies_3_workflow.json",
+        "queries": 8190,
+        "sessions": 856,
+        "query_per_session": 9.567757009345794,
+        "frequency": {
+            "14": 19,
+            "7": 822,
+            "21": 3,
+            "112": 1,
+            "70": 3,
+            "91": 1,
+            "77": 1,
+            "763": 1,
+            "49": 1,
+            "63": 1,
+            "280": 1,
+            "98": 1,
+            "364": 1
+        }
+    },
+    {
+        "task_id": "1d4cdb4f-febf-48f9-b778-8a95e47dd7df_flights_2_workflow.json",
+        "queries": 3250,
+        "sessions": 232,
+        "query_per_session": 14.008620689655173,
+        "frequency": {
+            "10": 35,
+            "5": 137,
+            "15": 44,
+            "25": 2,
+            "20": 12,
+            "45": 1,
+            "1220": 1
+        }
+    },
+    {
+        "task_id": "1d4cdb4f-febf-48f9-b778-8a95e47dd7df_flights_4_workflow.json",
+        "queries": 5535,
+        "sessions": 290,
+        "query_per_session": 19.086206896551722,
+        "frequency": {
+            "10": 12,
+            "25": 2,
+            "5": 269,
+            "35": 1,
+            "15": 2,
+            "60": 1,
+            "2230": 1,
+            "375": 1,
+            "1290": 1
+        }
+    },
+    {
+        "task_id": "1d4cdb4f-febf-48f9-b778-8a95e47dd7df_flights_1_workflow.json",
+        "queries": 410,
+        "sessions": 26,
+        "query_per_session": 15.76923076923077,
+        "frequency": {
+            "10": 3,
+            "5": 21,
+            "15": 1,
+            "260": 1
+        }
+    },
+    {
+        "task_id": "1d4cdb4f-febf-48f9-b778-8a95e47dd7df_movies_0_workflow.json",
+        "queries": 854,
+        "sessions": 45,
+        "query_per_session": 18.977777777777778,
+        "frequency": {
+            "14": 5,
+            "7": 38,
+            "28": 1,
+            "490": 1
+        }
+    },
+    {
+        "task_id": "1d4cdb4f-febf-48f9-b778-8a95e47dd7df_flights_0_workflow.json",
+        "queries": 480,
+        "sessions": 4,
+        "query_per_session": 120.0,
+        "frequency": {
+            "10": 1,
+            "105": 1,
+            "15": 1,
+            "350": 1
+        }
+    },
+    {
+        "task_id": "9299f629-35c8-4e7f-ada9-a6b0cdb9198c_movies_1_workflow.json",
+        "queries": 217,
+        "sessions": 8,
+        "query_per_session": 27.125,
+        "frequency": {
+            "7": 5,
+            "119": 1,
+            "14": 1,
+            "49": 1
+        }
+    },
+    {
+        "task_id": "9299f629-35c8-4e7f-ada9-a6b0cdb9198c_weather_1_workflow.json",
+        "queries": 6895,
+        "sessions": 331,
+        "query_per_session": 20.830815709969787,
+        "frequency": {
+            "7": 322,
+            "84": 1,
+            "35": 1,
+            "63": 2,
+            "56": 2,
+            "2646": 1,
+            "1330": 1,
+            "308": 1
+        }
+    },
+    {
+        "task_id": "9299f629-35c8-4e7f-ada9-a6b0cdb9198c_movies_2_workflow.json",
+        "queries": 4956,
+        "sessions": 95,
+        "query_per_session": 52.16842105263158,
+        "frequency": {
+            "7": 71,
+            "14": 13,
+            "21": 3,
+            "420": 1,
+            "28": 2,
+            "35": 1,
+            "140": 1,
+            "112": 1,
+            "742": 1,
+            "2709": 1
+        }
+    },
+    {
+        "task_id": "9299f629-35c8-4e7f-ada9-a6b0cdb9198c_weather_3_workflow.json",
+        "queries": 26845,
+        "sessions": 306,
+        "query_per_session": 87.72875816993464,
+        "frequency": {
+            "7": 297,
+            "91": 1,
+            "14": 3,
+            "280": 1,
+            "70": 1,
+            "287": 1,
+            "20069": 1,
+            "3927": 1
+        }
+    },
+    {
+        "task_id": "9299f629-35c8-4e7f-ada9-a6b0cdb9198c_movies_4_workflow.json",
+        "queries": 14532,
+        "sessions": 174,
+        "query_per_session": 83.51724137931035,
+        "frequency": {
+            "7": 163,
+            "14": 1,
+            "980": 1,
+            "322": 1,
+            "728": 1,
+            "1267": 1,
+            "2226": 1,
+            "3703": 1,
+            "280": 1,
+            "3458": 1,
+            "259": 1,
+            "154": 1
+        }
+    },
+    {
+        "task_id": "9299f629-35c8-4e7f-ada9-a6b0cdb9198c_weather_2_workflow.json",
+        "queries": 11312,
+        "sessions": 283,
+        "query_per_session": 39.97173144876325,
+        "frequency": {
+            "7": 194,
+            "14": 43,
+            "21": 23,
+            "105": 1,
+            "70": 1,
+            "133": 1,
+            "28": 10,
+            "42": 3,
+            "49": 1,
+            "546": 1,
+            "98": 1,
+            "35": 1,
+            "161": 1,
+            "6650": 1,
+            "616": 1
+        }
+    },
+    {
+        "task_id": "9299f629-35c8-4e7f-ada9-a6b0cdb9198c_movies_0_workflow.json",
+        "queries": 924,
+        "sessions": 6,
+        "query_per_session": 154.0,
+        "frequency": {
+            "7": 4,
+            "742": 1,
+            "154": 1
+        }
+    },
+    {
+        "task_id": "9299f629-35c8-4e7f-ada9-a6b0cdb9198c_weather_4_workflow.json",
+        "queries": 23303,
+        "sessions": 147,
+        "query_per_session": 158.52380952380952,
+        "frequency": {
+            "7": 141,
+            "42": 1,
+            "287": 1,
+            "4564": 1,
+            "12012": 1,
+            "2905": 1,
+            "2506": 1
+        }
+    },
+    {
+        "task_id": "9299f629-35c8-4e7f-ada9-a6b0cdb9198c_movies_3_workflow.json",
+        "queries": 12831,
+        "sessions": 1389,
+        "query_per_session": 9.237580993520519,
+        "frequency": {
+            "7": 1335,
+            "35": 2,
+            "98": 1,
+            "126": 2,
+            "56": 2,
+            "224": 1,
+            "112": 3,
+            "14": 28,
+            "154": 1,
+            "189": 1,
+            "168": 1,
+            "63": 1,
+            "28": 1,
+            "161": 1,
+            "21": 5,
+            "679": 1,
+            "70": 1,
+            "84": 1,
+            "301": 1
+        }
+    },
+    {
+        "task_id": "9299f629-35c8-4e7f-ada9-a6b0cdb9198c_weather_0_workflow.json",
+        "queries": 1687,
+        "sessions": 35,
+        "query_per_session": 48.2,
+        "frequency": {
+            "7": 24,
+            "14": 3,
+            "196": 1,
+            "49": 1,
+            "21": 3,
+            "28": 1,
+            "84": 1,
+            "1057": 1
+        }
+    },
+    {
+        "task_id": "70f3f96b-730f-4733-bdb8-5fa2463693f0_weather_1_workflow.json",
+        "queries": 1001,
+        "sessions": 13,
+        "query_per_session": 77.0,
+        "frequency": {
+            "14": 2,
+            "7": 9,
+            "378": 1,
+            "532": 1
+        }
+    },
+    {
+        "task_id": "70f3f96b-730f-4733-bdb8-5fa2463693f0_flights_1_workflow.json",
+        "queries": 710,
+        "sessions": 42,
+        "query_per_session": 16.904761904761905,
+        "frequency": {
+            "5": 29,
+            "15": 2,
+            "10": 3,
+            "30": 2,
+            "20": 2,
+            "40": 2,
+            "50": 1,
+            "275": 1
+        }
+    },
+    {
+        "task_id": "70f3f96b-730f-4733-bdb8-5fa2463693f0_flights_2_workflow.json",
+        "queries": 5485,
+        "sessions": 33,
+        "query_per_session": 166.21212121212122,
+        "frequency": {
+            "10": 6,
+            "25": 2,
+            "5": 10,
+            "15": 4,
+            "20": 1,
+            "265": 1,
+            "1705": 1,
+            "510": 1,
+            "200": 1,
+            "780": 1,
+            "665": 1,
+            "290": 1,
+            "300": 1,
+            "270": 1,
+            "260": 1
+        }
+    },
+    {
+        "task_id": "70f3f96b-730f-4733-bdb8-5fa2463693f0_flights_3_workflow.json",
+        "queries": 2385,
+        "sessions": 202,
+        "query_per_session": 11.806930693069306,
+        "frequency": {
+            "10": 19,
+            "5": 164,
+            "25": 2,
+            "15": 8,
+            "20": 3,
+            "35": 1,
+            "280": 1,
+            "40": 1,
+            "30": 1,
+            "185": 1,
+            "575": 1
+        }
+    },
+    {
+        "task_id": "70f3f96b-730f-4733-bdb8-5fa2463693f0_weather_0_workflow.json",
+        "queries": 1204,
+        "sessions": 16,
+        "query_per_session": 75.25,
+        "frequency": {
+            "7": 7,
+            "161": 1,
+            "266": 1,
+            "14": 2,
+            "28": 1,
+            "91": 1,
+            "35": 1,
+            "42": 1,
+            "504": 1
+        }
+    },
+    {
+        "task_id": "70f3f96b-730f-4733-bdb8-5fa2463693f0_weather_2_workflow.json",
+        "queries": 7994,
+        "sessions": 76,
+        "query_per_session": 105.1842105263158,
+        "frequency": {
+            "14": 12,
+            "7": 45,
+            "28": 3,
+            "21": 3,
+            "42": 3,
+            "35": 1,
+            "133": 1,
+            "532": 1,
+            "196": 1,
+            "273": 1,
+            "371": 1,
+            "77": 1,
+            "3556": 1,
+            "1190": 1,
+            "875": 1
+        }
+    },
+    {
+        "task_id": "70f3f96b-730f-4733-bdb8-5fa2463693f0_flights_0_workflow.json",
+        "queries": 365,
+        "sessions": 4,
+        "query_per_session": 91.25,
+        "frequency": {
+            "10": 1,
+            "35": 1,
+            "75": 1,
+            "245": 1
+        }
+    },
+    {
+        "task_id": "70f3f96b-730f-4733-bdb8-5fa2463693f0_weather_4_workflow.json",
+        "queries": 3696,
+        "sessions": 9,
+        "query_per_session": 410.6666666666667,
+        "frequency": {
+            "14": 1,
+            "7": 6,
+            "112": 1,
+            "3528": 1
+        }
+    },
+    {
+        "task_id": "70f3f96b-730f-4733-bdb8-5fa2463693f0_flights_4_workflow.json",
+        "queries": 9175,
+        "sessions": 335,
+        "query_per_session": 27.388059701492537,
+        "frequency": {
+            "10": 3,
+            "5": 323,
+            "15": 2,
+            "45": 2,
+            "95": 1,
+            "220": 1,
+            "715": 1,
+            "320": 1,
+            "6060": 1
+        }
+    },
+    {
+        "task_id": "70f3f96b-730f-4733-bdb8-5fa2463693f0_weather_3_workflow.json",
+        "queries": 5817,
+        "sessions": 116,
+        "query_per_session": 50.14655172413793,
+        "frequency": {
+            "14": 3,
+            "7": 111,
+            "203": 1,
+            "4795": 1
+        }
+    },
+    {
+        "task_id": "8076ab81-511f-456a-afc0-da6d5799b13b_movies_2_workflow.json",
+        "queries": 4963,
+        "sessions": 292,
+        "query_per_session": 16.996575342465754,
+        "frequency": {
+            "14": 31,
+            "7": 234,
+            "112": 2,
+            "21": 11,
+            "245": 1,
+            "28": 4,
+            "119": 1,
+            "63": 1,
+            "77": 1,
+            "168": 1,
+            "231": 1,
+            "567": 1,
+            "364": 1,
+            "294": 1,
+            "196": 1
+        }
+    },
+    {
+        "task_id": "8076ab81-511f-456a-afc0-da6d5799b13b_movies_1_workflow.json",
+        "queries": 861,
+        "sessions": 30,
+        "query_per_session": 28.7,
+        "frequency": {
+            "7": 20,
+            "14": 6,
+            "21": 2,
+            "378": 1,
+            "217": 1
+        }
+    },
+    {
+        "task_id": "8076ab81-511f-456a-afc0-da6d5799b13b_flights_0_workflow.json",
+        "queries": 2000,
+        "sessions": 64,
+        "query_per_session": 31.25,
+        "frequency": {
+            "10": 13,
+            "5": 38,
+            "15": 7,
+            "20": 3,
+            "695": 1,
+            "320": 1,
+            "500": 1
+        }
+    },
+    {
+        "task_id": "8076ab81-511f-456a-afc0-da6d5799b13b_flights_2_workflow.json",
+        "queries": 3810,
+        "sessions": 420,
+        "query_per_session": 9.071428571428571,
+        "frequency": {
+            "10": 14,
+            "5": 388,
+            "15": 5,
+            "85": 1,
+            "50": 2,
+            "55": 1,
+            "35": 1,
+            "310": 1,
+            "20": 2,
+            "95": 1,
+            "130": 1,
+            "25": 1,
+            "90": 1,
+            "690": 1
+        }
+    },
+    {
+        "task_id": "8076ab81-511f-456a-afc0-da6d5799b13b_movies_3_workflow.json",
+        "queries": 15015,
+        "sessions": 1723,
+        "query_per_session": 8.71445153801509,
+        "frequency": {
+            "14": 36,
+            "28": 2,
+            "7": 1651,
+            "105": 1,
+            "42": 1,
+            "525": 1,
+            "84": 2,
+            "154": 2,
+            "21": 13,
+            "182": 1,
+            "245": 1,
+            "63": 3,
+            "126": 1,
+            "217": 1,
+            "112": 1,
+            "91": 1,
+            "70": 2,
+            "49": 2,
+            "77": 1
+        }
+    },
+    {
+        "task_id": "8076ab81-511f-456a-afc0-da6d5799b13b_movies_0_workflow.json",
+        "queries": 2905,
+        "sessions": 115,
+        "query_per_session": 25.26086956521739,
+        "frequency": {
+            "14": 22,
+            "7": 81,
+            "21": 6,
+            "133": 1,
+            "28": 2,
+            "1456": 1,
+            "154": 1,
+            "105": 1
+        }
+    },
+    {
+        "task_id": "8076ab81-511f-456a-afc0-da6d5799b13b_movies_4_workflow.json",
+        "queries": 9100,
+        "sessions": 558,
+        "query_per_session": 16.308243727598565,
+        "frequency": {
+            "7": 535,
+            "14": 10,
+            "21": 4,
+            "49": 2,
+            "336": 1,
+            "420": 1,
+            "84": 1,
+            "28": 1,
+            "35": 1,
+            "3143": 1,
+            "987": 1
+        }
+    },
+    {
+        "task_id": "8076ab81-511f-456a-afc0-da6d5799b13b_flights_3_workflow.json",
+        "queries": 2630,
+        "sessions": 337,
+        "query_per_session": 7.804154302670623,
+        "frequency": {
+            "10": 25,
+            "5": 293,
+            "375": 1,
+            "30": 1,
+            "15": 12,
+            "125": 1,
+            "35": 1,
+            "40": 1,
+            "45": 1,
+            "85": 1
+        }
+    },
+    {
+        "task_id": "8076ab81-511f-456a-afc0-da6d5799b13b_flights_1_workflow.json",
+        "queries": 325,
+        "sessions": 48,
+        "query_per_session": 6.770833333333333,
+        "frequency": {
+            "10": 3,
+            "5": 43,
+            "50": 1,
+            "30": 1
+        }
+    },
+    {
+        "task_id": "8076ab81-511f-456a-afc0-da6d5799b13b_flights_4_workflow.json",
+        "queries": 4610,
+        "sessions": 599,
+        "query_per_session": 7.696160267111853,
+        "frequency": {
+            "5": 590,
+            "10": 1,
+            "15": 2,
+            "65": 1,
+            "70": 1,
+            "50": 1,
+            "100": 1,
+            "1140": 1,
+            "195": 1
+        }
+    },
+    {
+        "task_id": "14278406-2491-438d-b3e0-80fc1fbcd1b3_flights_2_workflow.json",
+        "queries": 9410,
+        "sessions": 508,
+        "query_per_session": 18.523622047244096,
+        "frequency": {
+            "5": 504,
+            "10": 1,
+            "40": 1,
+            "250": 1,
+            "6590": 1
+        }
+    },
+    {
+        "task_id": "14278406-2491-438d-b3e0-80fc1fbcd1b3_weather_4_workflow.json",
+        "queries": 9744,
+        "sessions": 476,
+        "query_per_session": 20.470588235294116,
+        "frequency": {
+            "7": 436,
+            "21": 9,
+            "14": 20,
+            "35": 1,
+            "476": 1,
+            "182": 1,
+            "63": 1,
+            "28": 2,
+            "4585": 1,
+            "56": 1,
+            "189": 1,
+            "378": 1,
+            "203": 1
+        }
+    },
+    {
+        "task_id": "14278406-2491-438d-b3e0-80fc1fbcd1b3_flights_3_workflow.json",
+        "queries": 31840,
+        "sessions": 77,
+        "query_per_session": 413.5064935064935,
+        "frequency": {
+            "10": 15,
+            "5": 10,
+            "15": 32,
+            "20": 9,
+            "155": 1,
+            "135": 1,
+            "225": 1,
+            "4000": 1,
+            "45": 1,
+            "40": 1,
+            "485": 1,
+            "3295": 1,
+            "8320": 1,
+            "10390": 1,
+            "3890": 1
+        }
+    },
+    {
+        "task_id": "14278406-2491-438d-b3e0-80fc1fbcd1b3_weather_3_workflow.json",
+        "queries": 15967,
+        "sessions": 49,
+        "query_per_session": 325.85714285714283,
+        "frequency": {
+            "21": 11,
+            "7": 25,
+            "14": 8,
+            "28": 2,
+            "56": 1,
+            "3920": 1,
+            "11417": 1
+        }
+    },
+    {
+        "task_id": "14278406-2491-438d-b3e0-80fc1fbcd1b3_flights_0_workflow.json",
+        "queries": 5935,
+        "sessions": 188,
+        "query_per_session": 31.569148936170212,
+        "frequency": {
+            "5": 118,
+            "10": 33,
+            "15": 27,
+            "20": 3,
+            "445": 1,
+            "75": 1,
+            "55": 1,
+            "115": 1,
+            "1935": 1,
+            "895": 1,
+            "1030": 1
+        }
+    },
+    {
+        "task_id": "14278406-2491-438d-b3e0-80fc1fbcd1b3_flights_1_workflow.json",
+        "queries": 840,
+        "sessions": 25,
+        "query_per_session": 33.6,
+        "frequency": {
+            "5": 13,
+            "10": 4,
+            "240": 1,
+            "15": 3,
+            "20": 2,
+            "345": 1,
+            "65": 1
+        }
+    },
+    {
+        "task_id": "14278406-2491-438d-b3e0-80fc1fbcd1b3_weather_2_workflow.json",
+        "queries": 10689,
+        "sessions": 1001,
+        "query_per_session": 10.678321678321678,
+        "frequency": {
+            "28": 14,
+            "14": 24,
+            "21": 22,
+            "7": 902,
+            "63": 3,
+            "196": 1,
+            "49": 2,
+            "182": 1,
+            "70": 2,
+            "105": 3,
+            "175": 1,
+            "35": 12,
+            "56": 2,
+            "126": 1,
+            "77": 2,
+            "42": 3,
+            "119": 1,
+            "259": 1,
+            "189": 1,
+            "84": 1,
+            "203": 1,
+            "98": 1
+        }
+    },
+    {
+        "task_id": "14278406-2491-438d-b3e0-80fc1fbcd1b3_weather_1_workflow.json",
+        "queries": 4382,
+        "sessions": 514,
+        "query_per_session": 8.525291828793774,
+        "frequency": {
+            "14": 8,
+            "21": 9,
+            "7": 489,
+            "28": 3,
+            "266": 1,
+            "84": 2,
+            "63": 1,
+            "77": 1
+        }
+    },
+    {
+        "task_id": "14278406-2491-438d-b3e0-80fc1fbcd1b3_weather_0_workflow.json",
+        "queries": 3612,
+        "sessions": 102,
+        "query_per_session": 35.411764705882355,
+        "frequency": {
+            "14": 5,
+            "7": 89,
+            "21": 2,
+            "196": 1,
+            "42": 1,
+            "28": 1,
+            "777": 1,
+            "539": 1,
+            "1295": 1
+        }
+    },
+    {
+        "task_id": "14278406-2491-438d-b3e0-80fc1fbcd1b3_flights_4_workflow.json",
+        "queries": 6985,
+        "sessions": 74,
+        "query_per_session": 94.39189189189189,
+        "frequency": {
+            "5": 54,
+            "10": 5,
+            "30": 1,
+            "40": 2,
+            "15": 4,
+            "255": 1,
+            "360": 1,
+            "50": 1,
+            "325": 1,
+            "710": 1,
+            "125": 1,
+            "235": 1,
+            "4435": 1
+        }
+    },
+    {
+        "task_id": "5c0c08df-b704-4256-989a-082cbaaec984_movies_2_workflow.json",
+        "queries": 17689,
+        "sessions": 302,
+        "query_per_session": 58.5728476821192,
+        "frequency": {
+            "14": 46,
+            "56": 2,
+            "7": 231,
+            "21": 8,
+            "224": 1,
+            "217": 2,
+            "35": 1,
+            "126": 1,
+            "28": 3,
+            "49": 1,
+            "98": 1,
+            "203": 1,
+            "350": 1,
+            "42": 1,
+            "154": 1,
+            "13349": 1
+        }
+    },
+    {
+        "task_id": "5c0c08df-b704-4256-989a-082cbaaec984_movies_0_workflow.json",
+        "queries": 1435,
+        "sessions": 54,
+        "query_per_session": 26.574074074074073,
+        "frequency": {
+            "7": 48,
+            "14": 3,
+            "147": 1,
+            "70": 1,
+            "840": 1
+        }
+    },
+    {
+        "task_id": "5c0c08df-b704-4256-989a-082cbaaec984_flights_0_workflow.json",
+        "queries": 645,
+        "sessions": 34,
+        "query_per_session": 18.970588235294116,
+        "frequency": {
+            "10": 1,
+            "5": 32,
+            "475": 1
+        }
+    },
+    {
+        "task_id": "5c0c08df-b704-4256-989a-082cbaaec984_movies_3_workflow.json",
+        "queries": 9961,
+        "sessions": 1272,
+        "query_per_session": 7.830974842767295,
+        "frequency": {
+            "14": 3,
+            "7": 1253,
+            "56": 1,
+            "105": 3,
+            "63": 2,
+            "98": 1,
+            "35": 2,
+            "84": 2,
+            "77": 2,
+            "42": 1,
+            "91": 1,
+            "28": 1
+        }
+    },
+    {
+        "task_id": "5c0c08df-b704-4256-989a-082cbaaec984_flights_4_workflow.json",
+        "queries": 9045,
+        "sessions": 410,
+        "query_per_session": 22.0609756097561,
+        "frequency": {
+            "5": 398,
+            "115": 1,
+            "70": 1,
+            "25": 2,
+            "110": 1,
+            "30": 3,
+            "4035": 1,
+            "2225": 1,
+            "270": 1,
+            "90": 1
+        }
+    },
+    {
+        "task_id": "5c0c08df-b704-4256-989a-082cbaaec984_movies_1_workflow.json",
+        "queries": 1519,
+        "sessions": 87,
+        "query_per_session": 17.45977011494253,
+        "frequency": {
+            "14": 13,
+            "7": 53,
+            "28": 2,
+            "35": 3,
+            "21": 4,
+            "49": 3,
+            "63": 1,
+            "119": 1,
+            "77": 1,
+            "91": 1,
+            "42": 4,
+            "56": 1
+        }
+    },
+    {
+        "task_id": "5c0c08df-b704-4256-989a-082cbaaec984_flights_1_workflow.json",
+        "queries": 775,
+        "sessions": 84,
+        "query_per_session": 9.226190476190476,
+        "frequency": {
+            "10": 10,
+            "5": 70,
+            "15": 2,
+            "25": 1,
+            "270": 1
+        }
+    },
+    {
+        "task_id": "5c0c08df-b704-4256-989a-082cbaaec984_flights_2_workflow.json",
+        "queries": 5430,
+        "sessions": 114,
+        "query_per_session": 47.63157894736842,
+        "frequency": {
+            "5": 103,
+            "15": 2,
+            "10": 1,
+            "50": 1,
+            "80": 1,
+            "70": 1,
+            "25": 1,
+            "310": 1,
+            "2160": 1,
+            "580": 1,
+            "1600": 1
+        }
+    },
+    {
+        "task_id": "5c0c08df-b704-4256-989a-082cbaaec984_movies_4_workflow.json",
+        "queries": 11760,
+        "sessions": 1542,
+        "query_per_session": 7.626459143968872,
+        "frequency": {
+            "14": 6,
+            "7": 1518,
+            "35": 2,
+            "91": 4,
+            "84": 1,
+            "133": 1,
+            "63": 2,
+            "21": 4,
+            "49": 1,
+            "42": 2,
+            "56": 1
+        }
+    },
+    {
+        "task_id": "5c0c08df-b704-4256-989a-082cbaaec984_flights_3_workflow.json",
+        "queries": 9740,
+        "sessions": 1766,
+        "query_per_session": 5.51528878822197,
+        "frequency": {
+            "10": 15,
+            "5": 1724,
+            "20": 6,
+            "50": 1,
+            "45": 2,
+            "15": 4,
+            "55": 1,
+            "60": 2,
+            "65": 1,
+            "25": 3,
+            "115": 1,
+            "35": 2,
+            "40": 3,
+            "30": 1
+        }
+    },
+    {
+        "task_id": "8df4ffad-d183-4658-a4d0-08a21dfbc821_movies_2_workflow.json",
+        "queries": 16562,
+        "sessions": 276,
+        "query_per_session": 60.007246376811594,
+        "frequency": {
+            "7": 260,
+            "14": 1,
+            "182": 1,
+            "133": 1,
+            "21": 4,
+            "28": 2,
+            "35": 2,
+            "2548": 1,
+            "616": 1,
+            "266": 1,
+            "8736": 1,
+            "2037": 1
+        }
+    },
+    {
+        "task_id": "8df4ffad-d183-4658-a4d0-08a21dfbc821_movies_4_workflow.json",
+        "queries": 13846,
+        "sessions": 4,
+        "query_per_session": 3461.5,
+        "frequency": {
+            "14": 1,
+            "7": 2,
+            "13818": 1
+        }
+    },
+    {
+        "task_id": "8df4ffad-d183-4658-a4d0-08a21dfbc821_movies_3_workflow.json",
+        "queries": 9828,
+        "sessions": 415,
+        "query_per_session": 23.681927710843375,
+        "frequency": {
+            "7": 397,
+            "14": 5,
+            "35": 3,
+            "49": 1,
+            "70": 1,
+            "112": 1,
+            "28": 2,
+            "63": 1,
+            "126": 1,
+            "91": 1,
+            "1624": 1,
+            "4683": 1
+        }
+    },
+    {
+        "task_id": "8df4ffad-d183-4658-a4d0-08a21dfbc821_weather_2_workflow.json",
+        "queries": 11088,
+        "sessions": 6,
+        "query_per_session": 1848.0,
+        "frequency": {
+            "14": 3,
+            "2338": 1,
+            "497": 1,
+            "8211": 1
+        }
+    },
+    {
+        "task_id": "8df4ffad-d183-4658-a4d0-08a21dfbc821_weather_0_workflow.json",
+        "queries": 1799,
+        "sessions": 11,
+        "query_per_session": 163.54545454545453,
+        "frequency": {
+            "14": 3,
+            "7": 2,
+            "28": 1,
+            "210": 1,
+            "427": 1,
+            "441": 1,
+            "406": 1,
+            "231": 1
+        }
+    },
+    {
+        "task_id": "8df4ffad-d183-4658-a4d0-08a21dfbc821_weather_4_workflow.json",
+        "queries": 18536,
+        "sessions": 211,
+        "query_per_session": 87.84834123222748,
+        "frequency": {
+            "7": 201,
+            "14": 1,
+            "98": 1,
+            "63": 1,
+            "252": 1,
+            "756": 1,
+            "231": 1,
+            "2751": 1,
+            "7749": 1,
+            "1064": 1,
+            "4151": 1
+        }
+    },
+    {
+        "task_id": "8df4ffad-d183-4658-a4d0-08a21dfbc821_weather_1_workflow.json",
+        "queries": 6118,
+        "sessions": 247,
+        "query_per_session": 24.76923076923077,
+        "frequency": {
+            "14": 10,
+            "7": 221,
+            "28": 3,
+            "21": 6,
+            "56": 1,
+            "35": 2,
+            "833": 1,
+            "371": 1,
+            "315": 1,
+            "2576": 1
+        }
+    },
+    {
+        "task_id": "8df4ffad-d183-4658-a4d0-08a21dfbc821_weather_3_workflow.json",
+        "queries": 25018,
+        "sessions": 890,
+        "query_per_session": 28.110112359550563,
+        "frequency": {
+            "14": 10,
+            "7": 860,
+            "105": 1,
+            "35": 1,
+            "21": 1,
+            "70": 1,
+            "238": 1,
+            "49": 2,
+            "28": 4,
+            "112": 1,
+            "56": 1,
+            "42": 3,
+            "315": 1,
+            "840": 1,
+            "9436": 1,
+            "7294": 1
+        }
+    },
+    {
+        "task_id": "8df4ffad-d183-4658-a4d0-08a21dfbc821_movies_1_workflow.json",
+        "queries": 518,
+        "sessions": 14,
+        "query_per_session": 37.0,
+        "frequency": {
+            "7": 4,
+            "14": 1,
+            "91": 1,
+            "35": 2,
+            "28": 3,
+            "21": 1,
+            "77": 1,
+            "133": 1
+        }
+    },
+    {
+        "task_id": "8df4ffad-d183-4658-a4d0-08a21dfbc821_movies_0_workflow.json",
+        "queries": 735,
+        "sessions": 8,
+        "query_per_session": 91.875,
+        "frequency": {
+            "7": 7,
+            "686": 1
+        }
+    }
+]

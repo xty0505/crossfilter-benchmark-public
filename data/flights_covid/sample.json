@@ -1,0 +1,74 @@
+{
+    "tables": {
+        "fact": {
+            "name": "flights_covid",
+            "fields": [
+                {
+                    "field": "callsign",
+                    "type": "categorical"
+                },
+                {
+                    "field": "number",
+                    "type": "categorical"
+                },
+                {
+                    "field": "icao24",
+                    "type": "categorical"
+                },
+                {
+                    "field": "registration",
+                    "type": "categorical"
+                },
+                {
+                    "field": "typecode",
+                    "type": "categorical"
+                },
+                {
+                    "field": "origin",
+                    "type": "categorical"
+                },
+		        {
+                    "field": "destination",
+                    "type": "categorical"
+                },
+		        {
+                    "field": "firstseen",
+                    "type": "temporal"
+                },
+		        {
+                    "field": "lastseen",
+                    "type": "temporal"
+                },
+		        {
+                    "field": "day",
+                    "type": "temporal"
+                },
+		        {
+                    "field": "latitude_1",
+                    "type": "quantitative"
+                },
+		        {
+                    "field": "longitude_1",
+                    "type": "quantitative"
+                },
+		        {
+                    "field": "altitude_1",
+                    "type": "quantitative"
+                },
+		        {
+                    "field": "latitude_2",
+                    "type": "quantitative"
+                },
+		        {
+                    "field": "longitude_2",
+                    "type": "quantitative"
+                },
+		        {
+                    "field": "altitude_2",
+                    "type": "quantitative"
+                }
+            ]
+        }
+        
+    }
+}

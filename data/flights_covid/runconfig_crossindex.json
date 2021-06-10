@@ -1,0 +1,19 @@
+{
+    "driver-names": ["crossindex"],
+    "driver-args": [{
+        "name": "flights_covid_10M",
+        "dimensions": ["day","typecode","origin","destination","registration","icao24","callsign"],
+        "types": ["temporal", "categrocial", "categorical", "categorical", "categorical", "categorical", "categorical"],
+        "cube_dir": "/home/xty/pj/CrossIndex/cube/Flights_covid/",
+        "method": "backward"
+    }],
+    "settings-datasets": ["flights_covid"],
+    "settings-workflows": ["cf"],
+    "settings-sizes": ["10M"],
+    "settings-thinktimes": [1000],
+    "settings-time-requirements": [500],
+    "settings-confidence-levels": [95],
+    "settings-normalized": false,
+    "evaluate": true,
+    "run": true
+}

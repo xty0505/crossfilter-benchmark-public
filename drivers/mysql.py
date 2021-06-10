@@ -36,8 +36,7 @@ class IDEBenchDriver:
         sql_statement = sql_statement.replace(self.table_to_replace, self.table)
         print(sql_statement)
 
-        connection = self.conn
-        cursor = connection.cursor()
+        cursor = self.conn.cursor()
         viz_request.start_time = util.get_current_ms_time()
         cursor.execute(sql_statement)
         # data = cursor.fetchall()
@@ -87,13 +86,19 @@ class IDEBenchDriver:
 
                 self.time_of_latest_request = viz_request.expected_start_time
                 self.execute_vizrequest(viz_request, options, schema, result_queue)
-            except Exception as e:
+            except queue.Empty as e:
                 # ignore queue-empty exceptions
+                print('requests queue empty.')
+            except Exception as e:
                 traceback.print_exc()
+                # pymysql 出现错误, 重获连接
+                self.conn.close()
+                self.conn = pymysql.connect(host=self.host, port=int(self.port), user=self.user, password=self.password, database=self.db)
                 pass
 
     def workflow_start(self):
         self.isRunning = True
+        self.time_of_latest_request = 0
         # connection
         self.conn = pymysql.connect(host=self.host, port=int(self.port), user=self.user, password=self.password, database=self.db)
         thread = Thread(target=self.process)
@@ -102,5 +107,5 @@ class IDEBenchDriver:
     def workflow_end(self):
         self.isRunning = False
         # close connection when done
-        self.conn.close()
+        # self.conn.close()
 

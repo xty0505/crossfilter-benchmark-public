@@ -1,0 +1,19 @@
+{
+    "driver-names": ["crossindex"],
+    "driver-args": [{
+        "name": "flights_numerical_binned_100M",
+        "dimensions": ["AIR_TIME","ARR_DELAY","ARR_TIME","DEP_DELAY","DEP_TIME","DISTANCE"],
+        "types": ["numerical", "numerical", "numerical", "numerical", "numerical", "numerical"],
+        "cube_dir": "/home/xty/pj/CrossIndex/cube/Flights/",
+        "method": "backward"
+    }],
+    "settings-datasets": ["flights"],
+    "settings-workflows": ["14278406-2491-438d-b3e0-80fc1fbcd1b3_flights_2_workflow"],
+    "settings-sizes": ["100M"],
+    "settings-thinktimes": [1000],
+    "settings-time-requirements": [100],
+    "settings-confidence-levels": [95],
+    "settings-normalized": false,
+    "evaluate": true,
+    "run": false
+}

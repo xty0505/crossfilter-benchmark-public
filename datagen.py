@@ -17,6 +17,7 @@ from collections import OrderedDict
 import logging
 
 current_milli_time = lambda: int(round(time.time() * 1000))
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("idebench")
 
 class DataGen:
