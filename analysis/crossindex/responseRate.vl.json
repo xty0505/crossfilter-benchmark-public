@@ -64,6 +64,18 @@
         "responseRate":0.2836231026
       },
       {
+          "dataset_size":"1M",
+          "dataset":"flights",
+          "driver":"monetdb",
+          "meanDuration":6.0387732203,
+          "countAnswered":192504,
+          "durationCiLower":4.0320912279,
+          "durationCiUpper":4.0454552127,
+          "durationStd":1.4958051897,
+          "countViolated":0,
+          "responseRate":0.5049881297
+      },
+      {
         "dataset_size":"1M",
         "dataset":"movies",
         "driver":"CI-backward",
@@ -122,6 +134,18 @@
         "durationStd":44.0125086451,
         "countViolated":1191.0,
         "responseRate":0.1976857073
+      },
+      {
+        "dataset_size":"1M",
+        "dataset":"movies",
+        "driver":"monetdb",
+        "meanDuration":6.6181129216,
+        "countAnswered":171535,
+        "durationCiLower":3.6083585364,
+        "durationCiUpper":3.6278673067,
+        "durationStd":2.0612236583,
+        "countViolated":0,
+        "responseRate":0.5604986276
       },
       {
         "dataset_size":"1M",
@@ -184,6 +208,19 @@
         "responseRate":0.2456530233
       },
       {
+        "dataset_size":"1M",
+        "dataset":"weather",
+        "driver":"monetdb",
+        "meanDuration":6.2215905818,
+        "countAnswered":347244,
+        "durationCiLower":4.2152179668,
+        "durationCiUpper":4.2279631969,
+        "durationStd":1.9159556541,
+        "countViolated":0,
+        "responseRate":0.6716895145
+      },
+
+      {
         "dataset_size":"10M",
         "dataset":"flights",
         "driver":"CI-backward",
@@ -245,15 +282,28 @@
       },
       {
         "dataset_size":"10M",
-        "dataset":"movies",
-        "driver":"CI-backward",
-        "meanDuration":19.0721177444,
-        "countAnswered":142614,
-        "durationCiLower":18.1080813511,
-        "durationCiUpper":20.0361541377,
-        "durationStd":185.7473954679,
-        "countViolated":3129.0,
-        "responseRate":0.493815141
+        "dataset":"flights",
+        "driver":"monetdb",
+        "meanDuration":15.3181651636,
+        "countAnswered":84607,
+        "durationCiLower":15.2874936031,
+        "durationCiUpper":15.3488367242,
+        "durationStd":4.5518161987,
+        "countViolated":0,
+        "responseRate":0.2253152421
+      },
+
+      {
+          "dataset_size":"10M",
+          "dataset":"movies",
+          "driver":"CI-backward",
+          "meanDuration":12.5358773213,
+          "countAnswered":157941,
+          "durationCiLower":12.1582261427,
+          "durationCiUpper":12.9135284999,
+          "durationStd":76.5749755685,
+          "countViolated":2818,
+          "responseRate":0.5428531434
       },
       {
         "dataset_size":"10M",
@@ -303,6 +353,19 @@
         "countViolated":818.0,
         "responseRate":0.1829597947
       },
+      {
+        "dataset_size":"10M",
+        "dataset":"movies",
+        "driver":"monetdb",
+        "meanDuration":14.5182026692,
+        "countAnswered":64963,
+        "durationCiLower":14.4683002872,
+        "durationCiUpper":14.5681050512,
+        "durationStd":6.4893041537,
+        "countViolated":0,
+        "responseRate":0.212269638
+      },
+      
       {
         "dataset_size":"10M",
         "dataset":"weather",
@@ -363,6 +426,19 @@
         "countViolated":1734.0,
         "responseRate":0.2160378415
       },
+      {
+        "dataset_size":"10M",
+        "dataset":"weather",
+        "driver":"monetdb",
+        "meanDuration":16.1404461166,
+        "countAnswered":130235,
+        "durationCiLower":16.1070594226,
+        "durationCiUpper":16.1738328107,
+        "durationStd":6.1473104653,
+        "countViolated":1,
+        "responseRate":0.251917419
+      },
+
       {
         "dataset_size":"100M",
         "dataset":"flights",
@@ -425,6 +501,19 @@
       },
       {
         "dataset_size":"100M",
+        "dataset":"flights",
+        "driver":"monetdb",
+        "meanDuration":70.6333093927,
+        "countAnswered":25062,
+        "durationCiLower":69.6079337639,
+        "durationCiUpper":71.6586850215,
+        "durationStd":82.8174372245,
+        "countViolated":7679,
+        "responseRate":0.0460994601
+      },
+
+      {
+        "dataset_size":"100M",
         "dataset":"movies",
         "driver":"CI-backward",
         "meanDuration":21.3222756803,
@@ -485,6 +574,19 @@
       },
       {
         "dataset_size":"100M",
+        "dataset":"movies",
+        "driver":"monetdb",
+        "meanDuration":34.286096787,
+        "countAnswered":30252,
+        "durationCiLower":33.6583985493,
+        "durationCiUpper":34.9137950247,
+        "durationStd":55.7009352676,
+        "countViolated":1594,
+        "responseRate":0.091330924
+      },
+
+      {
+        "dataset_size":"100M",
         "dataset":"weather",
         "driver":"CI-backward",
         "meanDuration":28.6178936138,
@@ -542,6 +644,18 @@
         "durationStd":66.7722517467,
         "countViolated":2329.0,
         "responseRate":0.1357992489
+      },
+      {
+        "dataset_size":"100M",
+        "dataset":"weather",
+        "driver":"monetdb",
+        "meanDuration":50.5405918658,
+        "countAnswered":56871,
+        "durationCiLower":50.0507026763,
+        "durationCiUpper":51.0304810553,
+        "durationStd":59.6054476588,
+        "countViolated":7899,
+        "responseRate":0.0934031142
       }
     ]
   },

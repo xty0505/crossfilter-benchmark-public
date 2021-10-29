@@ -19,45 +19,54 @@ class IDEBenchDriver:
         self.time_of_latest_request = 0
         self.isRunning = False
         self.requests = queue.LifoQueue()
-        self.config = json.load(open(os.path.join(os.path.dirname(__file__),'..','monetdb.config.json')))
+
+        #monetdb properties
+        print("mysql initialization")
+        print("mysql db name: %s" % driver_arg['db'])
+        print("mysql table name: %s" % driver_arg['table'])
+        self.host = driver_arg['host']
+        self.port = driver_arg['port']
+        self.user = driver_arg['user']
+        self.password = driver_arg['password']
+        self.db = driver_arg['db']
+        self.table = driver_arg['table']
+        self.table_to_replace = driver_arg['table-to-replace']
+        
 
     def create_connection(self):
         #conn = pymonetdb.connect(username="monetdb", password="monetdb", hostname="localhost", port=50000, database="crossfilter")
-        conn = pymonetdb.connect(username="crossfilter", password=self.config['password'], hostname=self.config["host"], port=self.config['port'], database="crossfilter-eval-db")
+        conn = pymonetdb.connect(username=self.user, password=self.password, hostname=self.host, port=self.port, database=self.db)
         return conn
 
     def execute_vizrequest(self, viz_request, options, schema, result_queue):
 
         viz = viz_request.viz
         sql_statement = viz.get_computed_filter_as_sql(schema)
+        sql_statement = sql_statement.replace(self.table_to_replace, self.table)
+        print(sql_statement)
+        
         #calculate connection time
-
-        # get a connection from the pool - block if non is available
-        connection = self.pool.get()
-        cursor = connection.cursor()
-
+        cursor = self.conn.cursor()
         viz_request.start_time = util.get_current_ms_time()
         cursor.execute(sql_statement)
-        data = cursor.fetchall()
+        # data = cursor.fetchall()
         viz_request.end_time = util.get_current_ms_time()
+        print('query time: '+str(viz_request.end_time-viz_request.start_time))
 
-
-        # put connection back in the queue so the next thread can use it.
         cursor.close()
-        self.pool.put(connection)
 
-        results = {}
-        for row in data:
-            keys = []
-            for i, bin_desc in enumerate(viz.binning):
-                if "width" in bin_desc:
-                    bin_width = bin_desc["width"]
-                    keys.append(str(int(row[i])))
-                else:
-                    keys.append(str(row[i]))
-            key = ",".join(keys)
-            results[key] = row[len(viz.binning):]
-        viz_request.result = results
+        # results = {}
+        # for row in data:
+        #     keys = []
+        #     for i, bin_desc in enumerate(viz.binning):
+        #         if "width" in bin_desc:
+        #             bin_width = bin_desc["width"]
+        #             keys.append(str(int(row[i])))
+        #         else:
+        #             keys.append(str(row[i]))
+        #     key = ",".join(keys)
+        #     results[key] = row[len(viz.binning):]
+        viz_request.result = {}
         result_queue.put(viz_request)
 
     def process_request(self, viz_request, options, schema, result_queue):
@@ -90,17 +99,12 @@ class IDEBenchDriver:
     def workflow_start(self):
          # pool a number of db connections
         self.isRunning = True
-        self.pool = queue.Queue()
-        for i in range(10):
-            conn = self.create_connection()
-            self.pool.put(conn)
-
+        self.time_of_latest_request = 0
+        # connection       
+        self.conn = self.create_connection()
         thread = Thread(target = self.process)
         thread.start()
 
     def workflow_end(self):
         self.isRunning = False
-        # close all db connections at the end of a workflow
-        for i in range(self.pool.qsize()):
-            conn = self.pool.get(timeout=1)
-            conn.close()
+        # self.conn.close()
